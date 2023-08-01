@@ -1,0 +1,17 @@
+/*
+
+!book/
+book/*
+!book/book.bib
+
+!lecture/
+lecture/*
+!lecture/lecture.bib
+
+!paperlib/
+paperlib/*
+!paperlib/AAA-papers.bib
+
+!thesislib/
+thesislib/*
+!thesislib/AAA-thesis.bib
