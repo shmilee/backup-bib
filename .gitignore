@@ -1,5 +1,21 @@
 /*
 
+!AA-paper/
+AA-paper/*
+!AA-paper/AA-paper.bib
+
+!AB-paper/
+AB-paper/*
+!AB-paper/AB-paper.bib
+
+!AO-paper/
+AO-paper/*
+!AO-paper/AO-paper.bib
+
+!AT-thesis/
+AT-thesis/*
+!AT-thesis/AT-thesis.bib
+
 !book/
 book/*
 !book/book.bib
@@ -8,10 +24,6 @@ book/*
 lecture/*
 !lecture/lecture.bib
 
-!paperlib/
-paperlib/*
-!paperlib/AAA-papers.bib
-
-!thesislib/
-thesislib/*
-!thesislib/AAA-thesis.bib
+!note/
+note/*
+!note/note.bib
