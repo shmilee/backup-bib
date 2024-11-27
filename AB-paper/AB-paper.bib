@@ -13,7 +13,7 @@
   urldate = {2024-10-18},
   abstract = {The Particle-in-Cell (PIC) method, a cornerstone in plasma modeling, is widely employed for its ability to simulate kinetic phenomena in device-scale domains. Part of what makes this possible is that computational macroparticles represent many physical particles. It converges under certain constraints, including a grid spacing that resolves the Debye length and a time step small enough to respect the Courant–Friedrichs–Lewy condition and plasma frequency stability limit. Here, we introduce a new constraint necessary to avoid Artificial Correlation Heating (ACH). This requires that the macroparticle coupling strength be smaller than one,  Γw\&lt;1, where  Γw≡Γw2/3,  Γ=Z2e2/(4πεoakBT) is the physical coupling strength, and w is the macroparticle weight. This is particularly relevant to 3D simulations of dense plasmas, which are becoming common with modern computing power. If this condition is violated, the finite macroparticle weight artificially enhances the coupling strength and causes the plasma to heat until the macroparticle coupling strength is near unity, depending on the grid resolution. A comprehensive model of ACH is developed that incorporates electron density, temperature, macroparticle weight, and grid resolution. It is then tested using PIC simulations, delineating the boundaries of the method's applicability and offering a predictive framework for ACH. Moreover, the research explores a runaway heating process induced by ACH in the presence of ionization, which can lead to numerical instability. A conclusion of this study is that the onset of ACH can impose a more stringent constraint on the macroparticle weight and average number of macroparticles per cell than what is typically expected, particularly in 3D simulations of dense plasmas.},
   timestamp = {2024-10-18T16:48:11Z},
-  file = {Acciarri2024-artificial_correlation_heating_in_pic_simulations.pdf:../../../../media/Data/ifts_study/AB-paper/Acciarri2024-artificial_correlation_heating_in_pic_simulations.pdf:application/pdf}
+  file = {Acciarri2024-artificial_correlation_heating_in_pic_simulations.pdf:Acciarri2024-artificial_correlation_heating_in_pic_simulations.pdf:application/pdf}
 }
 
 @article{Agnello2024Emulation,
@@ -50,8 +50,27 @@
   urldate = {2024-07-30},
   abstract = {In the initial stages of operation for future tokamak, facing limited data availability, deploying data-driven disruption predictors requires optimal performance with minimal use of new device data. This paper studies the issue of data utilization in data-driven disruption predictor during cross tokamak deployment. Current predictors primarily employ supervised learning methods and require a large number of disruption and non-disruption shots for training. However, the scarcity and high cost of obtaining disruption shots for future tokamaks result in imbalanced training datasets, reducing the performance of supervised learning predictors. To solve this problem, we propose the Enhanced Convolutional Autoencoder Anomaly Detection (E-CAAD) predictor. E-CAAD can be trained only by non-disruption samples and can also be trained by disruption precursor samples when disruption shots occur. This model not only overcomes the sample imbalance in supervised learning predictors, but also overcomes the inefficient dataset utilization faced by traditional anomaly detection predictors that cannot use disruption precursor samples for training, making it more suitable for the unpredictable datasets of future tokamaks. Compared to traditional anomaly detection predictors, the E-CAAD predictor performs better in disruption prediction and is deployed faster on new devices. Additionally, we explore strategies to accelerate the deployment of the E-CAAD predictor on the new device by using data from existing devices. Two deployment strategies are presented: mixing data from existing devices and fine-tuning the predictor trained on existing devices. Our comparisons indicate that the data from existing device can accelerate the deployment of predictor on new device. Notably, the fine-tuning strategy yields the fastest deployment on new device among the designed strategies.},
   langid = {english},
-  timestamp = {2024-07-30T20:46:47Z},
+  annotation = {TLDR: The Enhanced Convolutional Autoencoder Anomaly Detection (E-CAAD) predictor is proposed, which overcomes the sample imbalance in supervised learning predictors, and overcomes the inefficient dataset utilization faced by traditional anomaly detection predictors.},
+  timestamp = {2024-10-29T10:22:56Z},
   file = {Ai2024_Cross-tokamak_deployment_study_of_plasma_disruption_predictors_based_on.pdf:Ai2024_Cross-tokamak_deployment_study_of_plasma_disruption_predictors_based_on.pdf:application/pdf}
+}
+
+@article{AitAbderrahmane2024Coherent,
+  title = {Coherent Vortical Structures in Fluids and Plasmas},
+  author = {Ait Abderrahmane, Hamid and Melzer, Andre},
+  date = {2024-11-08},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {31},
+  number = {11},
+  pages = {110401},
+  issn = {1070-664X},
+  doi = {10.1063/5.0244223},
+  url = {https://doi.org/10.1063/5.0244223},
+  urldate = {2024-11-18},
+  abstract = {Magnetically confined columns of electrons are sought as one of the best experimental realizations of ideal 2D fluids and two-dimensional vortices in an inviscid fluid because the electron system has no boundary layers to dissipate the vortices and shows little dissipation. The dynamics of two-dimensional vortices in an inviscid, ideal fluid continue to be the subject of theoretical investigation in various settings. For instance, in two-dimensional turbulence, merging extended vortices with the same sign of vorticity has been proposed as a key element in the decay of turbulence in 2D flows.21 In this regard, electron systems offer an excellent setting to study vortex merging and turbulence in 2D flows. The non-neutral plasma system22 also offers experimental insight into shear-induced vortex generation, dynamics, and dissipation.23},
+  timestamp = {2024-11-18T07:03:41Z},
+  file = {Ait Abderrahmane2024-coherent_vortical_structures_in_fluids_and_plasmas.pdf:Ait Abderrahmane2024-coherent_vortical_structures_in_fluids_and_plasmas.pdf:application/pdf}
 }
 
 @article{Antonenas2024Analytical,
@@ -69,7 +88,7 @@
   urldate = {2024-10-21},
   abstract = {Symmetry-breaking perturbations in axisymmetric toroidal plasma configurations have a drastic impact on particle, energy, and momentum transport in fusion devices, thereby affecting their confinement properties. The perturbative modes strongly affect particles with specific kinetic characteristics through resonant mode–particle interactions. In this work, we present an analytical calculation of the kinetic q factor, enabling the identification of particles with kinetic properties that meet the resonant conditions. This allows us to predict the locations and structures of the corresponding resonant island chains, as well as the existence of transport barriers in the particle phase space. The analytical results, derived for the case of a large aspect ratio configuration, are systematically compared to numerical simulations, and their domain of validity is thoroughly investigated and explained. Our findings demonstrate that calculating the kinetic q factor and its dependence on both particle and magnetic field characteristics provides a valuable tool for understanding and predicting the resonant plasma response to non-axisymmetric perturbations. Moreover, this approach can be semi-analytically applied to generic realistic experimental equilibria, offering a low-computational-cost method for scenario investigations under various multi-scale perturbative modes.},
   timestamp = {2024-10-21T13:50:54Z},
-  file = {Antonenas2024-analytical_calculation_of_the_kinetic_q_factor_and_resonant_response_of_toroidally_confined_plasmas.pdf:../../../../media/Data/ifts_study/AB-paper/Antonenas2024-analytical_calculation_of_the_kinetic_q_factor_and_resonant_response_of_toroidally_confined_plasmas.pdf:application/pdf}
+  file = {Antonenas2024-analytical_calculation_of_the_kinetic_q_factor_and_resonant_response_of_toroidally_confined_plasmas.pdf:Antonenas2024-analytical_calculation_of_the_kinetic_q_factor_and_resonant_response_of_toroidally_confined_plasmas.pdf:application/pdf}
 }
 
 @article{Ashourvan2024Breakdown,
@@ -128,7 +147,7 @@
   langid = {american},
   annotation = {abstractTranslation: "广义等离子体聚焦问题"是指具有稠密等离子体聚焦装置的许多特征的等离子体传播现象的总称。它最近的理论发展已经被证明可以预测PF - 1000和波塞冬中夹点相的一些特征。该理论试图将等离子体传播问题分解为两个弱相互依赖的子问题。这是通过将等离子体连续体模型的每个物理变量表示为一个缩放参数的乘积来实现的，该缩放参数包含与设备相关的信息并表示其数值大小，而没有与设备相关的信息的缩放变量具有阶的统一性，并表示该变量的时空结构。 第一个子问题寻求一个旋转曲面，其局部法向速度等于速度的比例参数，并与磁力密度对齐。根据定义，所有尺度变量的时空分布必须沿着这个参考面移动。本文探讨了由此产生的标度理论及其对称性性质。通过一种新的坐标变换，得到了弯曲非稳态等离子体鞘套磁场的时空分布公式。获得了对雪犁效应的新见解。具有后边界的电流鞘层仅在电流减小时存在，且仅当载流等离子体密度小于填充气体密度时存在。 对于小型和大型器件，电流鞘层厚度相同。地磁通量压缩问题有一个精确解。},
   timestamp = {2024-10-21T14:06:06Z},
-  file = {Auluck2024-symmetry_and_structure_in_the_“generalized_plasma_focus_problem”.pdf:../../../../media/Data/ifts_study/AB-paper/Auluck2024-symmetry_and_structure_in_the_“generalized_plasma_focus_problem”.pdf:application/pdf}
+  file = {Auluck2024-symmetry_and_structure_in_the_“generalized_plasma_focus_problem”.pdf:Auluck2024-symmetry_and_structure_in_the_“generalized_plasma_focus_problem”.pdf:application/pdf}
 }
 
 @article{Avinash2024high,
@@ -147,7 +166,7 @@
   urldate = {2024-10-18},
   abstract = {It is shown that the dust density regimes in the dusty plasma are characterized by two complementary screening processes: (i) the low dust density regime where the Debye screening is the dominant process and (ii) the high dust density regime where the “Coulomb screening” is the dominant process. The Debye regime is characterized by a state where all dust particles carry an equal and constant charge. The high dust density regime or the “Coulomb plasma” regime is characterized by (a) “Coulomb screening” where the dust charge depends on the spatial location and is screened by other dust particles in the vicinity by charge reduction, (b) “asymptotic freedom” where dust particles, which on an average carry minimal electric charge, are asymptotically free in the high dust density limit, (c) uniform dust charge density and plasma potential, (d) dust charge neutralization by a uniform background of hot ions, and (e) dust is weakly coupled due to strong Coulomb screening. Thus, the dusty plasma is essentially a weakly coupled, one-component plasma with screening in the high dust density limit. Molecular dynamics (MD) simulations verify these properties. The MD simulations are performed, using a recently proposed Hamiltonian formalism to study the dynamics of Yukawa particles carrying variable electric charge. A hydrodynamic model for describing the collective properties of Coulomb plasma and its characteristic acoustic mode called the “Coulomb acoustic mode” arising due to imperfect Coulomb screening is given.},
   timestamp = {2024-10-18T17:23:00Z},
-  file = {Avinash2024-the_high_dust_density_regime_of_dusty_plasma_theory_and_simulations.pdf:../../../../media/Data/ifts_study/AB-paper/Avinash2024-the_high_dust_density_regime_of_dusty_plasma_theory_and_simulations.pdf:application/pdf}
+  file = {Avinash2024-the_high_dust_density_regime_of_dusty_plasma_theory_and_simulations.pdf:Avinash2024-the_high_dust_density_regime_of_dusty_plasma_theory_and_simulations.pdf:application/pdf}
 }
 
 @article{Aymerich2024selforganised,
@@ -168,7 +187,7 @@
   langid = {english},
   annotation = {abstractTranslation: 本文介绍了一种通过对高维JET操作空间进行完全无监督的二维映射而构造的中断预测器。这种干扰预测器的首要优势在于其内在的自组织能力。与有监督的中断预测器和早期由相同作者提出的基于无监督模型(如自组织或生成地形图)的方法不同，该预测器消除了在训练过程中标记中断终止脉冲数据的需要。在之前的方法中，标签确实需要进行后映射，以告知模型在中断放电过程中每个时间点是否存在中断前体。 相比之下，我们的方法在本研究中不涉及对中断终止实验数据的标记。自组织映射( Self-Organizing Map )在没有任何先验信息的情况下运行，能够很好地识别出表征前扰动阶段的区域。此外，SOM发现了非平凡的关系，并从实验数据中捕获了设备诊断对内部等离子体状态的复杂相互作用。所提供的模型具有很强的可解释性；它允许高维数据的可视化，并便于对模型进行简单的审问，以了解其相关性背后的原因。 因此，在各种设备中使用SOM可以在提取规则和识别共同模式方面证明是非常有价值的，从而有利于将从现有托卡马克中获得的知识外推到ITER。},
   timestamp = {2024-10-21T13:17:48Z},
-  file = {Aymerich2024-a_self-organised_partition_of_the_high_dimensional_plasma_parameter_space_for_plasma_disruption_pred.pdf:../../../../media/Data/ifts_study/AB-paper/Aymerich2024-a_self-organised_partition_of_the_high_dimensional_plasma_parameter_space_for_plasma_disruption_pred.pdf:application/pdf}
+  file = {Aymerich2024-a_self-organised_partition_of_the_high_dimensional_plasma_parameter_space_for_plasma_disruption_pred.pdf:Aymerich2024-a_self-organised_partition_of_the_high_dimensional_plasma_parameter_space_for_plasma_disruption_pred.pdf:application/pdf}
 }
 
 @article{Bagnato2024Study,
@@ -284,7 +303,7 @@
   abstract = {We introduce a gyrokinetic, linearised Fokker–Planck collision model that satisfies conservation laws and is accurate at arbitrary collisionalities. The differential test-particle component of the operator is exact; the integral field-particle component is approximated using a spherical harmonic and a modified Laguerre polynomial expansion developed by Hirshman and Sigmar (1976 Phys. Fluids 19 1532). The numerical methods of the implementation in the δf-gyrokinetic code (Barnes et al 2019 J. Comput. Phys. 391 365–80) are discussed, and conservation properties of the operator are demonstrated. The collision model is then benchmarked against the collision model of the gyrokinetic solver GS2 in the limiting cases of a reduced test-particle collision operator and energy- and momentum-conserving operator. The accuracy of the full collision model is investigated by solving the parallel Spitzer-Härm problem for the transport coefficients. It is shown that retaining collisional energy flux and higher-order terms in the field-particle operator reduces errors in the transport coefficients from 10\%–25\% for a simple momentum- and energy-conserving model to under 1\%.},
   langid = {english},
   timestamp = {2024-10-22T03:08:13Z},
-  file = {Boetticher2024-linearised_fokker–planck_collision_model_for_gyrokinetic_simulations.pdf:../../../../media/Data/ifts_study/AB-paper/Boetticher2024-linearised_fokker–planck_collision_model_for_gyrokinetic_simulations.pdf:application/pdf}
+  file = {Boetticher2024-linearised_fokker–planck_collision_model_for_gyrokinetic_simulations.pdf:Boetticher2024-linearised_fokker–planck_collision_model_for_gyrokinetic_simulations.pdf:application/pdf}
 }
 
 @article{Bonalumi2024Analysis,
@@ -321,6 +340,44 @@
   abstract = {This work combines experimental observations from the ASDEX Upgrade tokamak with related gyrokinetic simulations of the turbulence moving from L-mode toward, and beyond, the L–H transition. Dedicated experiments have been performed with slow steps of increasing electron cyclotron heating power. Gyrokinetic simulations of the edge turbulence of these plasmas highlight the key roles of the non-linear electromagnetic effects and the external flow shear (E\,×\,B shear), both related to the evolution of the plasma pressure profile with increasing heating power. The increase in the plasma βe destabilizes turbulence at low toroidal mode numbers, that, in turn, is strongly suppressed by the external flow shear. This allows the plasma pressure profiles to evolve without a sharp rise in the turbulent fluxes. When all the experimentally measured plasma parameters are consistently included as inputs of the local gyrokinetic simulations, both the experimental electron and ion heat fluxes are quantitatively reproduced on the whole L-mode phase of the selected discharge. Simulations carried out with edge parameters of an ELM-free H-mode phase still show the importance of the mechanisms discussed earlier while also indicating possible limitations of the local approach.},
   timestamp = {2024-07-30T21:11:24Z},
   file = {Bonanomi2024_From_L-mode_to_the_L–H_transition,_experiments_on_ASDEX_upgrade_and_related.pdf:Bonanomi2024_From_L-mode_to_the_L–H_transition,_experiments_on_ASDEX_upgrade_and_related.pdf:application/pdf}
+}
+
+@article{Boozer2024Electric,
+  title = {Electric Field Effects during Disruptions},
+  author = {Boozer, Allen H.},
+  date = {2024-10-21},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {31},
+  number = {10},
+  pages = {102506},
+  issn = {1070-664X},
+  doi = {10.1063/5.0219727},
+  url = {https://doi.org/10.1063/5.0219727},
+  urldate = {2024-10-23},
+  abstract = {Tokamak disruptions are associated with breaking magnetic surfaces, which makes magnetic field lines chaotic in large regions of the plasma. The enforcement of quasi-neutrality in a region of chaotic field lines requires an electric potential that has both short and long correlation distances across the magnetic field lines. The short correlation distances produce a Bohm-like diffusion coefficient  ∼Te/eB and the long correlation distances  aT produce a large scale flow  ∼Te/eBaT. This cross-field diffusion and flow are important for sweeping impurities into the core of a disrupting tokamak. The analysis separates the electric field in a plasma into the sum of a divergence-free,  E→B, and a curl-free,  E→q, part, a Helmholtz decomposition. The divergence-free part of  E→ determines the evolution of the magnetic field. The curl-free part enforces quasi-neutrality,  E→q=−∇→Φq. Magnetic helicity evolution gives the required boundary condition for a unique Helmholtz decomposition and an unfortunate constraint on steady-state tokamak maintenance.},
+  timestamp = {2024-10-23T07:14:53Z},
+  file = {Boozer2024-electric_field_effects_during_disruptions.pdf:Boozer2024-electric_field_effects_during_disruptions.pdf:application/pdf}
+}
+
+@article{Boyes2024Novel,
+  title = {Novel Intrinsic Helical Cores and {{MHD}} Dynamo Flux Pumping Evidence in {{DIII-D}}},
+  author = {Boyes, W. and Turco, F. and Hanson, J. and Navratil, G. A. and Turnbull, A. and Hyatt, A. and Luce, T. and Meyer, W. and Nelson, A. O. and Odstrcil, T. and Osborne, T. and Scotti, F. and Welander, A. and Wingen, A.},
+  date = {2024-11},
+  journaltitle = {Nuclear Fusion},
+  shortjournal = {Nucl. Fusion},
+  volume = {64},
+  number = {12},
+  pages = {124005},
+  publisher = {IOP Publishing},
+  issn = {0029-5515},
+  doi = {10.1088/1741-4326/ad89d9},
+  url = {https://dx.doi.org/10.1088/1741-4326/ad89d9},
+  urldate = {2024-11-06},
+  abstract = {Evidence of a MHD dynamo brought about by intrinsic helical core structures in negative triangularity (NT) and ITER baseline scenario (IBS) plasmas demonstrates paths to operating tokamaks without seeds for deleterious global MHD modes. A stationary sawtooth- and edge localized mode-free state maintains high performance for long durations in a strong NT shape in the DIII-D tokamak. Disparity between minimum safety factor values predicted by magnetic flux diffusion theory and derived from experiment suggests anomalous flux diffusion by an MHD dynamo, driven by flows associated with quasi-interchange modes. Stability calculations with the GATO code find NT and IBS experimental equilibria unstable to quasi-interchange modes, in agreement with observed saturated activity. IBS discharges with similar magnetic winding structure occupy robust helical core states following a transition from sawtooth instabilities. These states agree with prior modeling of helical core bifurcation thresholds with the VMEC equilibrium code.},
+  langid = {english},
+  timestamp = {2024-11-06T02:59:29Z},
+  file = {Boyes2024-novel_intrinsic_helical_cores_and_mhd_dynamo_flux_pumping_evidence_in_diii-d.pdf:Boyes2024-novel_intrinsic_helical_cores_and_mhd_dynamo_flux_pumping_evidence_in_diii-d.pdf:application/pdf}
 }
 
 @article{Brochard2024Saturation,
@@ -454,7 +511,7 @@
   langid = {english},
   annotation = {abstractTranslation: 采用组合式朗缪尔探针阵列，在HL - 2A电阻地加热氘等离子体中观察到了峰值在f≈2.0 kHz的低频带状流状( LFZF-like )结构。这种具有轴对称特性( n = 0)和有限径向相关长度(小于1cm)的时变势结构被认为是由小尺度湍流中的三波相互作用产生的。结果表明，在杂质离子的影响下，LFZF - like结构的振幅显著增加，这主要是由于湍流涡旋对称破缺过程增加了非线性能量传递的强度。因此，增强的LFZF - like结构具有通过剪切去相关mec来稳定局域湍流的能力},
   timestamp = {2024-10-21T13:14:07Z},
-  file = {Chen2024-reduction_of_turbulence_by_enhanced_low-frequency_zonal_flow-like_structures_in_hl-2a_edge_plasmas.pdf:../../../../media/Data/ifts_study/AB-paper/Chen2024-reduction_of_turbulence_by_enhanced_low-frequency_zonal_flow-like_structures_in_hl-2a_edge_plasmas.pdf:application/pdf}
+  file = {Chen2024-reduction_of_turbulence_by_enhanced_low-frequency_zonal_flow-like_structures_in_hl-2a_edge_plasmas.pdf:Chen2024-reduction_of_turbulence_by_enhanced_low-frequency_zonal_flow-like_structures_in_hl-2a_edge_plasmas.pdf:application/pdf}
 }
 
 @article{Chomiczewska2024ICRHrelated,
@@ -593,6 +650,25 @@
   file = {Dendy2023_Mechanism_for_Collective_Energy_Transfer_from_Neutral_Beam-Injected_Ions_to.pdf:Dendy2023_Mechanism_for_Collective_Energy_Transfer_from_Neutral_Beam-Injected_Ions_to.pdf:application/pdf}
 }
 
+@article{Dicorato2024Turbulent,
+  title = {Turbulent Transport Mechanisms and Their Impact on the Pedestal Top of {{JET}} Plasmas with Small-{{ELMs}}},
+  author = {Dicorato, M. and Muraglia, M. and Camenen, Y. and Garcia, J. and Garbet, X. and Hatch, D. R. and Merlo, G. and family=Luna, given=E., prefix=de la, useprefix=false and Štancar, Ž and Garzotti, L. and Zotta, V. K. and Rimini, F. and Frigione, D. and Contributors, J. E. T. and family=Team, given=Eurofusion Tokamak Exploitation, given-i={{Euro}}TE},
+  date = {2024-10},
+  journaltitle = {Plasma Physics and Controlled Fusion},
+  shortjournal = {Plasma Phys. Control. Fusion},
+  volume = {66},
+  number = {12},
+  pages = {125002},
+  publisher = {IOP Publishing},
+  issn = {0741-3335},
+  doi = {10.1088/1361-6587/ad867b},
+  url = {https://dx.doi.org/10.1088/1361-6587/ad867b},
+  urldate = {2024-10-31},
+  abstract = {Understanding the transport mechanisms that regulate the H-mode pedestal structure is crucial for developing regimes with edge dynamics that are compatible with the thermal and particle load constraints of plasma facing components. In this regard, at the JET tokamak, H-mode plasma regimes featuring small-ELM (BSE) dynamics have been developed, expelling less plasma energy per ELM compared to the standard type-I ELM. The pedestal of these new regimes remains stable against peeling-ballooning modes, leaving its structure unexplained. In this study, three baseline H-mode JET discharges—a reference with type-I ELM and two BSE regimes—are selected to investigate the turbulent transport mechanisms occurring in pedestals with different structures. The turbulence analysis is conducted using local gyrokinetic simulations around the pedestal top position. The results show that at ion scales, while hybrid ITG-KBM and KBM are destabilized in the type-I ELM discharge, the BSE regimes are dominated by hybrid ITG-TEM, suggesting a different role of turbulent transport in the two cases. At electron scales, both regimes are dominated by toroidal and slab ETG, the latter extending up to very small scales. Simulations of turbulence driven by hybrid ITG-TEM focuses on the impact and competition of electromagnetic (EM) effects and equilibrium shearing. A strong EM stabilization mechanism is found, resulting in a saturated turbulence regime with spectra different from those in the electrostatic limit (ESl). Additionally, while increasing shearing reduces transport in ESl simulations, it is observed to have the opposite effect in the EM regime. Finally, stiff ETG transport is also shown to produce transport levels compatible with experimental observations. The findings of this study suggest the EM stabilization and its competition with shearing as new key elements that determine the nature of the turbulent transport mechanisms around the pedestal top, which need to be considered in reduced models for pedestal limits.},
+  langid = {english},
+  timestamp = {2024-10-31T11:13:21Z}
+}
+
 @article{Dif-Pradalier2017staircase,
   title = {The {{E}} × {{B}} Staircase of Magnetised Plasmas},
   author = {Dif-Pradalier, G. and Hornung, G. and Garbet, X. and Ghendrih, Ph and Grandgirard, V. and Latu, G. and Sarazin, Y.},
@@ -687,6 +763,44 @@
   file = {Duarte2023_Shifting_and_Splitting_of_Resonance_Lines_due_to_Dynamical_Friction_in_Plasmas.pdf:Duarte2023_Shifting_and_Splitting_of_Resonance_Lines_due_to_Dynamical_Friction_in_Plasmas.pdf:application/pdf}
 }
 
+@article{Duval2024Experimental,
+  title = {Experimental Research on the {{TCV}} Tokamak},
+  author = {Duval, B. P. and Abdolmaleki, A. and Agostini, M. and Ajay, C. J. and Alberti, S. and Alessi, E. and Anastasiou, G. and Andrèbe, Y. and Apruzzese, G. M. and Auriemma, F. and Ayllon-Guerola, J. and Bagnato, F. and Baillod, A. and Bairaktaris, F. and Balbinot, L. and Balestri, A. and Baquero-Ruiz, M. and Barcellona, C. and Bernert, M. and Bin, W. and Blanchard, P. and Boedo, J. and Bolzonella, T. and Bombarda, F. and Boncagni, L. and Bonotto, M. and Bosman, T. O. S. J. and Brida, D. and Brunetti, D. and Buchli, J. and Buerman, J. and Buratti, P. and Burckhart, A. and Busil, D. and Caloud, J. and Camenen, Y. and Cardinali, A. and Carli, S. and Carnevale, D. and Carpanese, F. and Carpita, M. and Castaldo, C. and Causa, F. and Cavalier, J. and Cavedon, M. and Cazabonne, J. A. and Cerovsky, J. and Chapman, B. and Chernyshova, M. and Chmielewski, P. and Chomiczewska, A. and Ciraolo, G. and Coda, S. and Colandrea, C. and Contré, C. and Coosemans, R. and Cordaro, L. and Costea, S. and Craciunescu, T. and Crombe, K. and Molin, A. Dal and D’Arcangelo, O. and Casas, D. de Las and Decker, J. and Degrave, J. and family=Oliveira, given=H., prefix=de, useprefix=false and Derks, G. L. and family=Grazia, given=L. E., prefix=di, useprefix=false and Donner, C. and Dreval, M. and Dunne, M. G. and Durr-Legoupil-Nicoud, G. and Esposito, B. and Ewalds, T. and Faitsch, M. and Farník, M. and Fasoli, A. and Felici, F. and Ferreira, J. and Février, O. and Ficker, O. and Frank, A. and Fransson, E. and Frassinetti, L. and Fritz, L. and Furno, I. and Galassi, D. and Gałązka, K. and Galdon-Quiroga, J. and Galeani, S. and Galperti, C. and Garavaglia, S. and Garcia-Munoz, M. and Gaudio, P. and Gelfusa, M. and Genoud, J. and Miguelanez, R. Gerrú and Ghillardi, G. and Giacomin, M. and Gil, L. and Gillgren, A. and Giroud, C. and Golfinopoulos, T. and Goodman, T. and Gorini, G. and Gorno, S. and Grenfell, G. and Griener, M. and Gruca, M. and Gyergyek, T. and Hafner, R. and Hamed, M. and Hamm, D. and Han, W. and Harrer, G. and Harrison, J. R. and Hassabis, D. and Henderson, S. and Hennequin, P. and Hidalgo-Salaverri, J. and Hogge, J.-P. and Hoppe, M. and Horacek, J. and Huber, A. and Huett, E. and Iantchenko, A. and Innocente, P. and Ionita-Schrittwieser, C. and Stanik, I. Ivanova and Jablczynska, M. and family=Vuuren, given=A. Jansen, prefix=van, useprefix=false and Jardin, A. and Järleblad, H. and Järvinen, A. E. and Kalis, J. and Karimov, R. and Karpushov, A. N. and Kavukcuoglu, K. and Kay, J. and Kazakov, Y. and Keeling, J. and Kirjasuo, A. and Koenders, J. T. W. and Kohli, P. and Komm, M. and Kong, M. and Kovacic, J. and Kowalska-Strzeciwilk, E. and Krutkin, O. and Kudlacek, O. and Kumar, U. and Kwiatkowski, R. and Labit, B. and Laguardia, L. and Laszynska, E. and Lazaros, A. and Lee, K. and Lerche, E. and Linehan, B. and Liuzza, D. and Lunt, T. and Macusova, E. and Mancini, D. and Mantica, P. and Maraschek, M. and Marceca, G. and Marchioni, S. and Mariani, A. and Marin, M. and Marinoni, A. and Martellucci, L. and Martin, Y. and Martin, P. and Martinelli, L. and Martinelli, F. and Martin-Solis, J. R. and Masillo, S. and Masocco, R. and Masson, V. and Mathews, A. and Mattei, M. and Mazon, D. and Mazzi, S. and Mazzi, S. and Medvedev, S. Y. and Meineri, C. and Mele, A. and Menkovski, V. and Merle, A. and Meyer, H. and Mikszuta-Michalik, K. and Miron, I. G. and Cabrera, P. A. Molina and Moro, A. and Murari, A. and Muscente, P. and Mykytchuk, D. and Nabais, F. and Napoli, F. and Nem, R. D. and Neunert, M. and Nielsen, S. K. and Nielsen, A. and Nocente, M. and Noury, S. and Nowak, S. and Nyström, H. and Offeddu, N. and Olasz, S. and Oliva, F. and Oliveira, D. S. and Orsitto, F. P. and Osborne, N. and Dominguez, P. Oyola and Pan, O. and Panontin, E. and Papadopoulos, A. D. and Papagiannis, P. and Papp, G. and Passoni, M. and Pastore, F. and Pau, A. and Pavlichenko, R. O. and Pedersen, A. C. and Pedrini, M. and Pelka, G. and Peluso, E. and Perek, A. and Thun, C. Perez Von and Pesamosca, F. and Pfau, D. and Piergotti, V. and Pigatto, L. and Piron, C. and Piron, L. and Pironti, A. and Plank, U. and Plyusnin, V. and Poels, Y. R. J. and Pokol, G. I. and Poley-Sanjuan, J. and Poradzinski, M. and Porte, L. and Possieri, C. and Poulsen, A. and Pueschel, M. J. and Pütterich, T. and Quadri, V. and Rabinski, M. and Ragona, R. and Raj, H. and Redl, A. and Reimerdes, H. and Reux, C. and Ricci, D. and Riedmiller, M. and Rienäcker, S. and Rigamonti, D. and Rispoli, N. and Rivero-Rodriguez, J. F. and Madrid, C. F. Romero and Rueda, J. Rueda and Ryan, P. J. and Salewski, M. and Salmi, A. and Sassano, M. and Sauter, O. and Schoonheere, N. and Schrittwieser, R. W. and Sciortino, F. and Selce, A. and Senni, L. and Sharapov, S. and Sheikh, U. A. and Sieglin, B. and Silva, M. and Silvagni, D. and Schmidt, B. Simmendefeldt and Simons, L. and Solano, E. R. and Sozzi, C. and Spolaore, M. and Spolladore, L. and Stagni, A. and Strand, P. and Sun, G. and Suttrop, W. and Svoboda, J. and Tal, B. and Tala, T. and Tamain, P. and Tardocchi, M. and Biwole, A. Tema and Tenaglia, A. and Terranova, D. and Testa, D. and Theiler, C. and Thornton, A. and Thrysoe, A. S. and Tomes, M. and Tonello, E. and Torreblanca, H. and Tracey, B. and Tsimpoukelli, M. and Tsironis, C. and Tsui, C. K. and Ugoletti, M. and Vallar, M. and family=Berkel, given=M., prefix=van, useprefix=false and family=Mulders, given=S., prefix=van, useprefix=false and family=Rossem, given=M., prefix=van, useprefix=false and Venturini, C. and Veranda, M. and Verdier, T. and Verhaegh, K. and Vermare, L. and Vianello, N. and Viezzer, E. and Villone, F. and Vincent, B. and Vincenzi, P. and Voitsekhovitch, I. and Votta, L. and Vu, N. M. T. and Wang, Y. and Wang, E. and Wauters, T. and Weiland, M. and Weisen, H. and Wendler, N. and Wiesen, S. and Wiesenberger, M. and Wijkamp, T. and Wüthrich, C. and Yadykin, D. and Yang, H. and Yanovskiy, V. and Zebrowski, J. and Zestanakis, P. and Zuin, M. and Zurita, M.},
+  date = {2024-10},
+  journaltitle = {Nuclear Fusion},
+  shortjournal = {Nucl. Fusion},
+  volume = {64},
+  number = {11},
+  pages = {112023},
+  publisher = {IOP Publishing},
+  issn = {0029-5515},
+  doi = {10.1088/1741-4326/ad8361},
+  url = {https://dx.doi.org/10.1088/1741-4326/ad8361},
+  urldate = {2024-10-31},
+  abstract = {Tokamak à configuration variable (TCV), recently celebrating 30 years of near-continual operation, continues in its missions to advance outstanding key physics and operational scenario issues for ITER and the design of future power plants such as DEMO. The main machine heating systems and operational changes are first described. Then follow five sections: plasma scenarios. ITER Base-Line (IBL) discharges, triangularity studies together with X3 heating and N2 seeding. Edge localised mode suppression, with a high radiation region near the X-point is reported with N2 injection with and without divertor baffles in a snowflake configuration. Negative triangularity (NT) discharges attained record, albeit transient, βN ∼ 3 with lower turbulence, higher low-Z impurity transport, vertical stability and density limits and core transport better than the IBL. Positive triangularity L-Mode linear and saturated ohmic confinement confinement saturation, often-correlated with intrinsic toroidal rotation reversals, was probed for D, H and He working gases. H-mode confinement and pedestal studies were extended to low collisionality with electron cyclotron heating obtaining steady state electron iternal transport barrier with neutral beam heating (NBH), and NBH driven H-mode configurations with off-axis co-electron cyclotron current drive. Fast particle physics. The physics of disruptions, runaway electrons and fast ions (FIs) was developed using near-full current conversion at disruption with recombination thresholds characterised for impurity species (Ne, Ar, Kr). Different flushing gases (D2, H2) and pathways to trigger a benign disruption were explored. The 55 kV NBH II generated a rich Alfvénic spectrum modulating the FI fas ion loss detector signal. NT configurations showed less toroidal Alfvén excitation activity preferentially affecting higher FI pitch angles. Scrape-off layer and edge physics. gas puff imaging systems characterised turbulent plasma ejection for several advanced divertor configurations, including NT. Combined diagnostic array divertor state analysis in detachment conditions was compared to modelling revealing an importance for molecular processes. Divertor physics. Internal gas baffles diversified to include shorter/longer structures on the high and/or low field side to probe compressive efficiency. Divertor studies concentrated upon mitigating target power, facilitating detachment and increasing the radiated power fraction employing alternative divertor geometries, optimised X-point radiator regimes and long-legged configurations. Smaller-than-expected improvements with total flux expansion were better modelled when including parallel flows. Peak outer target heat flux reduction was achieved ({$>$}50\%) for high flux-expansion geometries, maintaining core performance (H98 {$>$} 1). A reduction in target heat loads and facilitated detachment access at lower core densities is reported. Real-time control. TCV’s real-time control upgrades employed MIMO gas injector control of stable, robust, partial detachment and plasma β feedback control avoiding neoclassical tearing modes with plasma confinement changes. Machine-learning enhancements include trajectory tracking disruption proximity and avoidance as well as a first-of-its-kind reinforcement learning-based controller for the plasma equilibrium trained entirely on a free-boundary simulator. Finally, a short description of TCV’s immediate future plans will be given.},
+  langid = {english},
+  timestamp = {2024-10-31T11:35:03Z},
+  file = {Duval2024-experimental_research_on_the_tcv_tokamak.pdf:Duval2024-experimental_research_on_the_tcv_tokamak.pdf:application/pdf}
+}
+
+@article{Fitzpatrick2024Calculation,
+  title = {Calculation of Tearing Mode Stability in an Inverse Aspect-Ratio Expanded Tokamak Plasma Equilibrium},
+  author = {Fitzpatrick, Richard},
+  date = {2024-10-22},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {31},
+  number = {10},
+  pages = {102507},
+  issn = {1070-664X},
+  doi = {10.1063/5.0231715},
+  url = {https://doi.org/10.1063/5.0231715},
+  urldate = {2024-10-23},
+  abstract = {The tearing mode stability of an inverse aspect-ratio expanded tokamak plasma equilibrium of general shape is investigated using asymptotic matching techniques. Particular emphasis is placed on the conservation of toroidal electromagnetic angular momentum. The TJ code, which is a specific implementation of the results of the investigation, is described.},
+  timestamp = {2024-10-23T07:14:23Z},
+  file = {Fitzpatrick2024-calculation_of_tearing_mode_stability_in_an_inverse_aspect-ratio_expanded_tokamak_plasma_equilibrium.pdf:Fitzpatrick2024-calculation_of_tearing_mode_stability_in_an_inverse_aspect-ratio_expanded_tokamak_plasma_equilibrium.pdf:application/pdf}
+}
+
 @article{Fitzpatrick2024Inverse,
   title = {Inverse Aspect-Ratio Expanded Tokamak Equilibria},
   author = {Fitzpatrick, R.},
@@ -702,7 +816,7 @@
   urldate = {2024-10-18},
   abstract = {Following Greene et al. [Phys. Fluids 14, 671 (1971)] and Connor et al. [Phys. Plasmas 31, 577 (1988); Plasma Phys. Control. Fusion 34, 161 (1992); and Nucl. Fusion 33, 1533 (1993)], the Grad-Shafranov equation for an axisymmetric tokamak plasma equilibrium is solved via an expansion in the, supposedly small, inverse aspect-ratio of the plasma, ϵ. The displacements of equilibrium magnetic flux-surfaces due to plasma shaping are assumed to be  O(ϵ) smaller than the minor radii of the surfaces, but no other restriction is placed on the nature of the shaping. The solution of the Grad-Shafranov equation is matched to a vacuum solution that extends to infinity, and consists of an expansion in toroidal functions. The external poloidal magnetic field generated by a finite set of discrete external poloidal magnetic field-coils is calculated, and incorporated into the toroidal function expansion. In this manner, the shape of a large aspect-ratio tokamak plasma is directly related to the currents flowing in the external poloidal field-coils. Finally, a pedestal in the plasma pressure, and the associated spike in the bootstrap current, are incorporated into the model.},
   timestamp = {2024-10-18T17:22:05Z},
-  file = {Fitzpatrick2024-inverse_aspect-ratio_expanded_tokamak_equilibria.pdf:../../../../media/Data/ifts_study/AB-paper/Fitzpatrick2024-inverse_aspect-ratio_expanded_tokamak_equilibria.pdf:application/pdf}
+  file = {Fitzpatrick2024-inverse_aspect-ratio_expanded_tokamak_equilibria.pdf:Fitzpatrick2024-inverse_aspect-ratio_expanded_tokamak_equilibria.pdf:application/pdf}
 }
 
 @article{Fraile2024Isochronous,
@@ -758,7 +872,7 @@
   urldate = {2024-10-21},
   abstract = {Quantitative spectroscopy of molecular hydrogen has generated substantial demand, leading to the accumulation of diverse elementary process data encompassing radiative transitions, electron-impact transitions, predissociations, and quenching. However, their rates currently available are still sparse, and there are inconsistencies among those proposed by different authors. In this study, we demonstrate an experimental validation of such a molecular dataset by composing a collisional-radiative model (CRM) for molecular hydrogen and comparing experimentally obtained vibronic populations across multiple levels. From the population kinetics of molecular hydrogen, the importance of each elementary process in various parameter space is studied. In low-density plasmas (electron density  ne≲1017\,m−3) the excitation rates from the ground states and radiative decay rates, both of which have been reported previously, determine the excited state population. The inconsistency in the excitation rates affects the population distribution the most significantly in this parameter space. However, in higher density plasmas ( ne≳1018\,m−3), the excitation rates from excited states become important, which have never been reported in the literature, and may need to be approximated in some way. In order to validate these molecular datasets and approximated rates, we carried out experimental observations for two different hydrogen plasmas; a low-density radio frequency heated plasma ( ne≈1016\,m−3) and the Large Helical Device (LHD) divertor plasma ( ne≳1018\,m−3). The visible emission lines from  EF1Σg+,\,HH¯1Σg+,\,D1Πu±,\,GK1Σg+,\,I1Πg±,\,J1Δg±,  h3Σg+,\,e3Σu+,\,d3Πu±,g3Σg+,\,i3Πg±, and  j3Δg± states were observed simultaneously and their population distributions were obtained from their intensities. We compared the observed population distributions with the CRM prediction, in particular the CRM with the rates compiled by Janev et al., Miles et al., and those calculated with the molecular convergent close-coupling (MCCC) method. The MCCC prediction gives the best agreement with the experiment, particularly for the emission from the low-density plasma. However, the population distribution in the LHD divertor shows a worse agreement with the CRM than those from low-density plasma, indicating the necessity of the precise excitation rates from excited states. We also found that the rates for the electron attachment is inconsistent with experimental results. This requires further investigation.},
   timestamp = {2024-10-21T14:27:57Z},
-  file = {Full Text PDF:../../../../media/Data/ifts_study/AB-paper/Fujii2024-experimental_validation_of_a_collision-radiation_dataset_for_molecular_hydrogen_in_plasmas.pdf:application/pdf}
+  file = {Fujii2024-experimental_validation_of_a_collision-radiation_dataset_for_molecular_hydrogen_in_plasmas.pdf:Fujii2024-experimental_validation_of_a_collision-radiation_dataset_for_molecular_hydrogen_in_plasmas.pdf:application/pdf}
 }
 
 @article{Gaelzer2024dispersion,
@@ -816,7 +930,7 @@
   abstract = {A reduced model for trapped electron mode stability has been developed, which incorporates the basic effects of magnetic surface shaping, in particular, elongation and triangularity. This model shows that while elongation is stabilising, though weakly, negative triangularity usually leads to a more unstable plasma. This is in marked contrast with the experimental evidence of a better confinement at negative triangularity, and with recent gyrokinetic linear simulations. This paradox is solved when finite orbit and/or finite mode extent along field lines (mode ballooning) effects are included. These effects give more weight to particles trapped at low bounce angles, which are those that exhibit lower precession frequencies at negative—compared to positive—triangularity. As a result, the interchange growth rate becomes lower at negative triangularity and large temperature gradients, so that negative triangularity appears to have an overall stabilising effect. Mode ballooning appears to play the most important role in this reversal of stability.},
   langid = {english},
   timestamp = {2024-10-18T17:43:14Z},
-  file = {Garbet2024-the_effect_of_shaping_on_trapped_electron_mode_stability_an_analytical_model.pdf:../../../../media/Data/ifts_study/AB-paper/Garbet2024-the_effect_of_shaping_on_trapped_electron_mode_stability_an_analytical_model.pdf:application/pdf}
+  file = {Garbet2024-the_effect_of_shaping_on_trapped_electron_mode_stability_an_analytical_model.pdf:Garbet2024-the_effect_of_shaping_on_trapped_electron_mode_stability_an_analytical_model.pdf:application/pdf}
 }
 
 @article{Garcia-Regana2024Reduction,
@@ -835,7 +949,7 @@
   abstract = {A systematic study of the impact of impurities on the turbulent heat fluxes is presented for the stellarator Wendelstein 7-X (W7-X) and, for comparison, the Large Helical Device and ITER. By means of nonlinear multispecies gyrokinetic simulations, it is shown that impurities, depending on the sign of their density gradient, can significantly enhance or reduce turbulent ion heat losses. For the relevant scenario of turbulence reduction, an optimal impurity concentration that minimizes the ion heat diffusivity emerges as a universal feature. This result demonstrates the potential of impurities for controlling turbulence and accessing enhanced confinement regimes in fusion plasmas and, in particular, in W7-X.},
   langid = {american},
   timestamp = {2024-10-21T14:07:11Z},
-  file = {García-Regaña2024-reduction_or_enhancement_of_stellarator_turbulence_by_impurities.pdf:../../../../media/Data/ifts_study/AB-paper/García-Regaña2024-reduction_or_enhancement_of_stellarator_turbulence_by_impurities.pdf:application/pdf}
+  file = {García-Regaña2024-reduction_or_enhancement_of_stellarator_turbulence_by_impurities.pdf:García-Regaña2024-reduction_or_enhancement_of_stellarator_turbulence_by_impurities.pdf:application/pdf}
 }
 
 @article{Giannatale2024System,
@@ -875,7 +989,7 @@
   abstract = {This paper reports the first experiment carried out in deuterium–tritium addressing the integration of a radiative divertor for heat-load control with good confinement. Neon seeding was carried out for the first time in a D–T plasma as part of the second D–T campaign of JET with its Be/W wall environment. The technical difficulties linked to the re-ionisation heat load are reported in T and D–T. This paper compares the impact of neon seeding on D–T plasmas and their D counterpart on the divertor detachment, localisation of the radiation, scrape-off profiles, pedestal structure, edge localised modes and global confinement.},
   langid = {english},
   timestamp = {2024-10-18T17:43:44Z},
-  file = {Giroud2024-the_core–edge_integrated_neon-seeded_scenario_in_deuterium–tritium_at_jet.pdf:../../../../media/Data/ifts_study/AB-paper/Giroud2024-the_core–edge_integrated_neon-seeded_scenario_in_deuterium–tritium_at_jet.pdf:application/pdf}
+  file = {Giroud2024-the_core–edge_integrated_neon-seeded_scenario_in_deuterium–tritium_at_jet.pdf:Giroud2024-the_core–edge_integrated_neon-seeded_scenario_in_deuterium–tritium_at_jet.pdf:application/pdf}
 }
 
 @article{Gonzalez-Martin2023Active,
@@ -951,7 +1065,7 @@
   url = {https://doi.org/10.1063/5.0223339},
   urldate = {2024-10-21},
   timestamp = {2024-10-21T13:59:51Z},
-  file = {Greenwald2024-preface_to_special_issue_private_fusion_research_opportunities_and_challenges_in_plasma_science.pdf:../../../../media/Data/ifts_study/AB-paper/Greenwald2024-preface_to_special_issue_private_fusion_research_opportunities_and_challenges_in_plasma_science.pdf:application/pdf}
+  file = {Greenwald2024-preface_to_special_issue_private_fusion_research_opportunities_and_challenges_in_plasma_science.pdf:Greenwald2024-preface_to_special_issue_private_fusion_research_opportunities_and_challenges_in_plasma_science.pdf:application/pdf}
 }
 
 @article{Gromelski2024Investigation,
@@ -1028,7 +1142,7 @@
   abstract = {This conference report summarizes recent progress in plasma theory and simulation that was presented in contributed papers and discussions at the 11th Conference on Magnetic Confined Fusion Theory and Simulation (CMCFTS) held in Chengdu, China, 27–30 October, 2023. Progress in various fields has been achieved. For example, results on zonal flow generation by mode coupling, simulations of the key physics of divertor detachment, energetic particle effects on magnetohydrodynamic (MHD) modes in addition to ion- and electron-scale turbulence, physics of edge coherent modes and edge-localized modes, and the optimization of ion heating schemes as well as confinement scenarios using advanced integrated modeling are presented at the conference. In this conference, the scientific research groups were organized into six categories: (a) edge and divertor physics; (b) impurity, heating, and current drive; (c) energetic particle physics; (d) turbulent transport; (e) MHD instability; and (f) integrated modeling and code development. A summary of the highlighted progress in these working groups is presented.},
   langid = {english},
   timestamp = {2024-10-21T14:38:54Z},
-  file = {HAO2024-summary_of_the_11th_conference_on_magnetic_confined_fusion_theory_and_simulation.pdf:../../../../media/Data/ifts_study/AB-paper/HAO2024-summary_of_the_11th_conference_on_magnetic_confined_fusion_theory_and_simulation.pdf:application/pdf}
+  file = {HAO2024-summary_of_the_11th_conference_on_magnetic_confined_fusion_theory_and_simulation.pdf:HAO2024-summary_of_the_11th_conference_on_magnetic_confined_fusion_theory_and_simulation.pdf:application/pdf}
 }
 
 @article{Hatch2024Modeling,
@@ -1087,7 +1201,7 @@
   langid = {english},
   annotation = {TLDR: A deep learning-based L-H transition identification algorithm on HL-2A tokamak is proposed and a series of evaluation indicators by shots are developed to show that this algorithm can provide necessary reference for the mitigation and suppression system.},
   timestamp = {2024-10-22T03:06:53Z},
-  file = {He2024-identifying_l-h_transition_in_hl-2a_through_deep_learning.pdf:../../../../media/Data/ifts_study/AB-paper/He2024-identifying_l-h_transition_in_hl-2a_through_deep_learning.pdf:application/pdf}
+  file = {He2024-identifying_l-h_transition_in_hl-2a_through_deep_learning.pdf:He2024-identifying_l-h_transition_in_hl-2a_through_deep_learning.pdf:application/pdf}
 }
 
 @article{He2024Ti,
@@ -1150,6 +1264,26 @@
   file = {Herschel2024_Experimental_evidence_for_the_drift_wave_nature_of_the_weakly_coherent_mode_in.pdf:Herschel2024_Experimental_evidence_for_the_drift_wave_nature_of_the_weakly_coherent_mode_in.pdf:application/pdf}
 }
 
+@article{Hesch2024Progress,
+  title = {Progress in Particular Fields of Fusion Technology Presented at the 29th {{IAEA Fusion Energy Conference}} 2023},
+  author = {Hesch, Klaus},
+  date = {2024-10},
+  journaltitle = {Nuclear Fusion},
+  shortjournal = {Nucl. Fusion},
+  volume = {64},
+  number = {11},
+  pages = {117002},
+  publisher = {IOP Publishing},
+  issn = {0029-5515},
+  doi = {10.1088/1741-4326/ad7a0c},
+  url = {https://dx.doi.org/10.1088/1741-4326/ad7a0c},
+  urldate = {2024-11-01},
+  abstract = {This paper provides an overview on the progress in fusion technologies presented during the 29th IAEA Fusion Energy Conference held in October 2023 at London, UK, with a focus on the topics ITER technology, heating and current drive technology as well as fusion nuclear technology, including fusion nuclear science as well as technology research devices. A complementary contribution, authored by Amanda Quadling, covers the topics materials development, in-vessel components, licensing \& safety, socio-economics and environment, as well as next step machine designs.},
+  langid = {english},
+  timestamp = {2024-11-01T10:44:32Z},
+  file = {Hesch2024-progress_in_particular_fields_of_fusion_technology_presented_at_the_29th_iaea_fusion_energy_conferen.pdf:Hesch2024-progress_in_particular_fields_of_fusion_technology_presented_at_the_29th_iaea_fusion_energy_conferen.pdf:application/pdf}
+}
+
 @article{Holcomb2024DIIIresearch,
   title = {{{DIII-D}} Research to Provide Solutions for {{ITER}} and Fusion Energy},
   author = {Holcomb, C. T. and Team, for the DIII-D. and Abbate, J. and Abe, A. and Abrams, A. and Adebayo-Ige, P. and Agabian, S. and Ahmed, S. and Aiba, N. and Akcay, N. and Akiyama, T. and Albosta, R. and Aleynikov, P. and Allen, S. and Anand, H. and Anderson, J. and Andrew, Y. and Ashburn, M. and Ashourvan, A. and Austin, M. and Avdeeva, G. and Ayala, D. and Ayub, M. and Bagdy, E. and Banerjee, S. and Barada, K. and Bardoczi, L. and Bardsley, O. and Barr, J. and Bass, E. and Battey, A. and Bayler, Z. and Baylor, L. and Bechtel, T. and Beidler, M. and Belli, E. and Benedett, T. and Bergstrom, Z. and Berkel, M. and Bernard, T. and Bertelli, N. and Bielajew, R. and Bodner, G. and Boedo, J. and Boivin, R. and Bolzonella, T. and Bonoli, P. and Bortolon, A. and Bose, S. and Boyer, M. and Boyes, W. and Bradley, L. and Brambila, R. and Braun, A. and Brennan, D. and Bringuier, S. and Brodsky, L. and Brookman, M. and Brooks, J. and Brower, D. and Brown, W. and Buck, J. and Buczek, S. and Burgess, D. and Burke, M. and Burrell, K. and Butt, J. and Buttery, R. and Bykov, I. and Byrne, P. and Cacheris, A. and Callahan, K. and Callen, J. and Campbell, D. and Candy, J. and Canik, J. and Cappelli, L. and Carlstrom, T. and Carr, R. and Carrig, W. and Carter, B. and Carter, T. and Carvalho, I. and Cary, W. and Casali, L. and Ceelen, L. and Cengher, M. and Cha, M. and Chaban, R. and Chan, V. and Chapman, B. and Char, I. and Chen, J. and Chen, R. and Chen, J. and Chen, X. and Chen, Y. and Chiriboga, J. and Cho, E. and Choi, G. and Choi, W. and Choudhury, H. and Chowdhury, S. and Chrystal, C. and Chung, Y. and Churchill, R. and Clark, R. and Clement, M. and Coburn, J. and Coda, S. and Coffee, R. and Collins, C. and Colmenares-Fernandez, J. and Conlin, W. and Coon, R. and Cote, T. and Creely, A. and Crocker, N. and Crowe, C. and Crowley, B. and Crowley, T. and Curie, M. and Curreli, D. and Molin, A. Dal and Damba, J. and Dart, E. and Dautt-Silva, A. and Davda, K. and De, A. and family=Boucaud, given=N., prefix=de, useprefix=false and family=Jong, given=Y., prefix=de, useprefix=false and VRIES, P. DE and family=Villeroche, given=A., prefix=de-, useprefix=true and DeGrandchamp, G. and {deGrassie}, J. and Demers, D. and Denk, S. and DeShazer, E. and Genova, S. Di and Diallo, A. and Dimits, A. and Ding, R. and Ding, S. and Donovan, D. and Du, X. and Dunsmore, J. and Dupuy, A. and Duran, J. and Dvorak, A. and Effenberg, F. and Eidietis, N. and Elder, D. and Eldon, D. and Elsey, Y. and Ennis, D. and Erickson, K. and Ernst, D. and Fajardo, M. and Farre-Kaga, H. and Fenstermacher, M. and Ferraro, N. and Ferron, J. and Feyrer, A. and Fimognari, P. and Finden, R. and Finkenthal, D. and Fitzpatrick, R. and Flanagan, S. and Ford, B. and Fox, W. and Freiberger, S. and Fu, L. and Gage, K. and Gajaraj, V. and Garcia, I. and Garcia, F. and Garcia, A. and Munoz, M. Garcia and Garnier, D. and Garofalo, A. and Gattuso, A. and Geiger, B. and Gentle, K. and Ghai, Y. and Gill, K. and Glass, F. and Gohil, P. and Gong, X. and Gonzalez-Martin, J. and Gorelov, Y. and Graber, V. and Granetz, R. and Gray, C. and Greenfield, C. and Grierson, B. and Groebner, R. and Grosnickle, W. and Groth, M. and Gu, S. and Guo, H. and Guterl, J. and Guttenfelder, W. and Hager, R. and Hahn, S. and Halfmoon, M. and Hall, J. and Hall-Chen, V. and Halpern, F. and Hammett, G. and Han, X. and Hansen, C. and Hansen, E. and Hanson, J. and Hanson, M. and Harris, A. and Harvey, R. and Haskey, S. and Hatch, D. and Hayashi, W. and Hayes, A. and Heidbrink, W. and Herfindal, J. and Hicok, J. and Hinson, E. and Hisakado, T. and Holcomb, C. and Holland, C. and Holland, L. and Hollmann, E. and Holm, A. and Holmes, I. and Holtrop, K. and Hong, R. and Hood, R. and Horvath, L. and Houshmandyar, S. and Howard, N. and Howell, E. and Hu, W. and Hu, Y. and Hu, Q. and Huang, Y. and Huang, J. and Huang, A. and Hubbard, A. and Hughes, J. and Humphreys, D. and Hurtado, J. and Hyatt, A. and Imada, K. and Izzo, V. and Jalalvand, A. and Jardin, S. and Jarvinen, A. and Jeon, Y. and Ji, H. and Jian, X. and Jian, L. and Jiang, Y. and Johnson, C. and Johnson, J. and Jones, M. and Joung, S. and Jouzdani, P. and Jung, E. and Kallenberg, E. and Kalling, R. and Kaplan, D. and Kaptanoglu, A. and Kellman, D. and Kennedy, J. and Khabanov, F. and Kim, J. and Kim, H. and Kim, E. and Kim, S. and Kim, K. and Kim, C. and Kim, T. and King, J. and Kinsey, A. and Kirk, D. and Klasing, D. and Kleiner, A. and Knolker, M. and Kochan, M. and Koel, B. and Koenders, J. and Koepke, M. and Kolasinski, R. and Kolemen, E. and Kostadinova, E. and Kostuk, M. and Kramer, G. and Kube, R. and Kumar, N. and Haye, R. La and Laggner, F. and Lahban, C. and Lan, H. and Landry, R. and Lantsov, R. and Lao, L. and Lasnier, C. and Lau, C. and Leccacorvi, R. and Leddy, J. and Lee, M. and Lee, S. and Lee, K. and Lee, R. and Lehnen, M. and Leonard, A. and Leppink, E. and LeSher, M. and Lestz, J. and Leuer, J. and Leuthold, N. and Li, G. and Li, X. and Li, Y. and Li, L. and Li, N. and Li, Z. and Lin, D. and Lin, Z. and Lin, Z. and Lin, Y. and Linsenmayer, E. and Liu, J. and Liu, D. and Liu, D. and Liu, C. and Liu, Z. and Liu, Y. and Liu, C. and Loarte-Prieto, A. and Loch, S. and LoDestro, L. and Logan, N. and Lohr, J. and Lore, J. and Rodriguez, U. Losada and Loughran, J. and Lowell, M. and Luce, T. and Luhmann, N. and Lunia, P. and Lunsford, R. and Lupin-Jimenez, L. and Lvovskiy, A. and Lyons, B. and Ma, X. and MacDonald, J. and Macwan, T. and Maingi, R. and Major, M. and Malhotra, L. and Margo, M. and Marini, C. and Marinoni, A. and Maris, A. and Martin, E. and Mateja, J. and Mattes, R. and Maurizio, R. and Mauzey, D. and McAllister, L. and McArdle, G. and McClenaghan, J. and McCollam, K. and McKee, G. and McLaughlin, K. and McLean, A. and Mehta, V. and Meier, E. and Meitner, S. and Menard, J. and Meneghini, O. and Merlo, G. and Messer, S. and Meyer, W. and Michael, C. and Miller, D. and Miller, M. and Mitchell, J. and Mitra, E. and Moeller, C. and Mohamed, M. and Molesworth, S. and Montes, K. and Mordijck, S. and Morosohk, S. and Moser, A. and Mueller, D. and Munaretto, S. and Murphy, C. and Muscatello, C. and Myers, R. and Nagy, A. and Nath, D. and Navarro, M. and Nazikian, R. and Neiser, T. and Nelson, A. and Nesbet, P. and Nespoli, F. and Nguyen, P. and Nguyen, D. and Nguyen, R. and Nichols, J. and Nocente, M. and Nuckols, L. and Nygren, R. and Odstrcil, T. and Okabayashi, M. and Olofsson, E. and Orlov, D. and Orozco, D. and Osborne, N. and Osborne, T. and OShea, F. and Pace, D. and Packard, D. and Martinez, A. Pajares and Pakosta, C. and Pan, C. and Pandya, M. and Panici, D. and Pankin, A. and Park, Y. and Park, J. and Park, J. and Parker, C. and Parker, S. and Parks, P. and Parsons, M. and Paruchuri, S. and Paz-Soldan, C. and Pederson, T. and Peebles, W. and Penaflor, B. and Perez, E. and Periasamy, L. and Perillo, R. and Petty, C. and Pharr, M. and Pierce, D. and Pierren, C. and Pierson, S. and Pigarov, A. and Pigatto, L. and Piglowski, D. and Pinches, S. and Pinsker, R. and Pitts, R. and Pizzo, J. and Podesta, M. and Popovic, Z. and Porkolab, M. and Pratt, Q. and Prechel, G. and Pusztai, I. and Puthan-Naduvakkate, P. and Qian, J. and Qin, X. and Ra, O. and Raines, T. and Rakers, K. and Rath, K. and Rauch, J. and Rea, C. and Reed, R. and Reiman, A. and Reinke, M. and Reksoatmodjo, R. and Ren, Q. and Ren, J. and Ren, Y. and Rensink, M. and Rhodes, T. and Richner, N. and Ridzon, J. and Riggs, G. and Riquezes, J. and Fernandez, P. Rodriguez and Rognlien, T. and Ronchi, G. and Rondini, L. and Rosati, R. and Rosenthal, A. and Ross, M. and Rost, J. and Rothstein, A. and Roveto, J. and Ruane, J. and Rudakov, D. and Rupani, R. and Rutherford, G. and Sabbagh, S. and Sachdev, J. and Sadeghi, N. and Salmi, A. and Salvador, F. and Sammuli, B. and Samuell, C. and Sandorfi, A. and Sang, C. and Santa, D. and Sarff, J. and Sauter, O. and Savelli, H. and Schaefer, C. and Schamis, H. and Schellpfeffer, J. and Schissel, D. and Schmitz, L. and Schmitz, O. and Schroeder, P. and Schultz, K. and Schuster, E. and Sciortino, F. and Scotti, F. and Scoville, J. and Seltzman, A. and Seo, J. and Serrano, J. and Sfiligoi, I. and Shafer, M. and Shapov, R. and Shen, H. and Shi, N. and Shiraki, D. and Short, B. and Shousha, R. and Si, H. and Sierra, C. and Sinclair, G. and Sinha, P. and Sips, G. and Skinner, C. and Slendebroek, T. and Slief, J. and Smirnov, R. and Smith, S. and Smith, D. and Snoep, G. and Snyder, P. and Solomon, W. and Song, X. and Sontag, A. and Soukhanovskii, V. and Spong, D. and Squire, J. and Staebler, G. and Stagner, L. and Stange, T. and Stangeby, P. and Starling, E. and Stewart, S. and Stoltzfus-Dueck, T. and Storment, S. and Strait, E. and Su, D. and Sugiyama, L. and Sun, P. and Sun, Y. and Sun, Y. and Sun, X. and Sung, C. and Suttrop, W. and Suzuki, Y. and Sweeney, R. and Taczak, B. and Takemura, Y. and Tang, S. and Tang, S. and Tang, W. and Tardini, G. and Taussig, D. and Teixeira, K. and Thackston, K. and Thomas, D. and Thome, K. and Tinguely, Y. and Tobin, M. and Tooker, J. and family=Sousa, given=A. Torrezan, prefix=de, useprefix=false and Traverso, P. and Trevisan, G. and Trier, E. and Truong, D. and Tsui, C. and Turco, F. and Turnbull, A. and Turner, L. and Unterberg, E. and Compernolle, B. Van and family=Kampen, given=R., prefix=van, useprefix=false and Zeeland, M. Van and Victor, B. and Vieira, R. and Viezzer, E. and Vincena, S. and Vollmer, D. and Wai, J. and Walker, M. and Waltz, R. and Wampler, W. and Wang, L. and Wang, Y. and Wang, H. and Wang, Z. and Wang, G. and Wang, A. and Watkins, J. and Watkins, M. and Watts, T. and Webber, L. and Weber, K. and Wehner, W. and Wei, X. and Weisberg, D. and Welander, A. and Welsh, A. and White, A. and Wilcox, R. and Wilkie, G. and Wilks, T. and Willensdorfer, M. and Wilson, H. and Wingen, A. and Wu, M. and Wu, D. and Wukitch, S. and Xia, J. and Xie, R. and Xing, Z. and Xu, G. and Xu, X. and Yan, Z. and Yang, X. and Yang, L. and Yang, S. and Yang, J. and Yoo, M. and YU, G. and Yu, J. and Zalzali, A. and Zamengo, A. and Zamkovska, V. and Zamperini, S. and Zarrabi, K. and Zeger, E. and Zeller, K. and Zeng, L. and Zhang, X. and Zhang, J. and Zhang, B. and Zhang, J. and Zhao, B. and Zhao, C. and Zheng, Y. and Zhu, Y. and Zhu, J. and Ziegel, J. and Zimmerman, J. and Zuniga, C.},
@@ -1167,7 +1301,7 @@
   abstract = {The DIII-D tokamak has elucidated crucial physics and developed projectable solutions for ITER and fusion power plants in the key areas of core performance, boundary heat and particle transport, and integrated scenario operation, with closing the core-edge integration knowledge gap being the overarching mission. New experimental validation of high-fidelity, multi-channel, non-linear gyrokinetic turbulent transport models for ITER provides strong confidence it will achieve Q ⩾ 10 operation. Experiments identify options for easing H-mode access in hydrogen, and give new insight into the isotopic dependence of transport and confinement. Analysis of 2,1 islands in unoptimized low-torque IBS demonstration discharges suggests their onset time occurs randomly in the constant β phase, most often triggered by non-linear 3-wave coupling, thus identifying an NTM seeding mechanism to avoid. Pure deuterium SPI for disruption mitigation is shown to provide favorable slow cooling, but poor core assimilation, suggesting paths for improved SPI on ITER. At the boundary, measured neutral density and ionization source fluxes are strongly poloidally asymmetric, implying a 2D treatment is needed to model pedestal fuelling. Detailed measurements of pedestal and SOL quantities and impurity charge state radiation in detached divertors has validated edge fluid modelling and new self-consistent ‘pedestal-to-divertor’ integrated modeling that can be used to optimize reactors. New feedback adaptive ELM control minimizes confinement reduction, and RMP ELM suppression with sustained high core performance was obtained for the first time with the outer strike point in a W-coated, compact and unpumped small-angle slot divertor. Advances have been made in integrated operational scenarios for ITER and power plants. Wide pedestal intrinsically ELM-free QH-modes are produced with more reactor-relevant conditions, Low torque IBS with W-equivalent radiators can exhibit predator-prey oscillations in T e and radiation which need control. High-β P scenarios with q min {$>$} 2, q 95–7.9, β N {$>$} 4, β T–3.3\% and H 98y2 {$>$} 1.5 are sustained with high density ( = 7E19 m−3, f G–1) for 6 τ E, improving confidence in steady-state tokamak reactors. Diverted NT plasmas achieve high core performance with a non-ELMing edge, offering a possible highly attractive core-edge integration solution for reactors.},
   langid = {english},
   timestamp = {2024-10-18T17:34:11Z},
-  file = {Holcomb2024-diii-d_research_to_provide_solutions_for_iter_and_fusion_energy.pdf:../../../../media/Data/ifts_study/AB-paper/Holcomb2024-diii-d_research_to_provide_solutions_for_iter_and_fusion_energy.pdf:application/pdf}
+  file = {Holcomb2024-diii-d_research_to_provide_solutions_for_iter_and_fusion_energy.pdf:Holcomb2024-diii-d_research_to_provide_solutions_for_iter_and_fusion_energy.pdf:application/pdf}
 }
 
 @article{Huang2023Longpulse,
@@ -1243,7 +1377,7 @@
   keywords = {isotope},
   annotation = {remark: 全局全f规动模拟氢同位素混合现象。},
   timestamp = {2024-10-18T16:41:14Z},
-  file = {Idomura2024-full-f_gyrokinetic_simulations_of_hydrogen_isotope_mixing_in_tokamak_plasmas.pdf:../../../../media/Data/ifts_study/AB-paper/Idomura2024-full-f_gyrokinetic_simulations_of_hydrogen_isotope_mixing_in_tokamak_plasmas.pdf:application/pdf}
+  file = {Idomura2024-full-f_gyrokinetic_simulations_of_hydrogen_isotope_mixing_in_tokamak_plasmas.pdf:Idomura2024-full-f_gyrokinetic_simulations_of_hydrogen_isotope_mixing_in_tokamak_plasmas.pdf:application/pdf}
 }
 
 @article{Imadera2024Turbulent,
@@ -1383,6 +1517,27 @@
   file = {Jiang2024_Tritium_management_in_ITER_test_blanket_systems_port_cell_for_maintenance.pdf:Jiang2024_Tritium_management_in_ITER_test_blanket_systems_port_cell_for_maintenance.pdf:application/pdf}
 }
 
+@article{Jiao2024AI,
+  title = {{{AI}} Meets Physics: A Comprehensive Survey},
+  shorttitle = {{{AI}} Meets Physics},
+  author = {Jiao, Licheng and Song, Xue and You, Chao and Liu, Xu and Li, Lingling and Chen, Puhua and Tang, Xu and Feng, Zhixi and Liu, Fang and Guo, Yuwei and Yang, Shuyuan and Li, Yangyang and Zhang, Xiangrong and Ma, Wenping and Wang, Shuang and Bai, Jing and Hou, Biao},
+  date = {2024-08-16},
+  journaltitle = {Artificial Intelligence Review},
+  shortjournal = {Artif Intell Rev},
+  volume = {57},
+  number = {9},
+  pages = {256},
+  issn = {1573-7462},
+  doi = {10.1007/s10462-024-10874-4},
+  url = {https://doi.org/10.1007/s10462-024-10874-4},
+  urldate = {2024-10-31},
+  abstract = {Uncovering the mechanisms of physics is driving a new paradigm in artificial intelligence (AI) discovery. Today, physics has enabled us to understand the AI paradigm in a wide range of matter, energy, and space-time scales through data, knowledge, priors, and laws. At the same time, the AI paradigm also draws on and introduces the knowledge and laws of physics to promote its own development. Then this new paradigm of using physical science to inspire AI is the physical science of artificial intelligence (PhysicsScience4AI, PS4AI). Although AI has become the driving force for development in various fields, there is still a “black box” phenomenon that is difficult to explain in the field of AI deep learning. This article will briefly review the connection between relevant physics disciplines (classical mechanics, electromagnetism, statistical physics, quantum mechanics) and AI. It will focus on discussing the mechanisms of physics disciplines and how they inspire the AI deep learning paradigm, and briefly introduce some related work on how AI solves physics problems. PS4AI is a new research field. At the end of the article, we summarize the challenges facing the new physics-inspired AI paradigm and look forward to the next generation of artificial intelligence technology. This article aims to provide a brief review of research related to physics-inspired AI deep algorithms and to stimulate future research and exploration by elucidating recent advances in physics.},
+  langid = {english},
+  keywords = {Artificial intelligence,Artificial Intelligence,Classical mechanics,Electromagnetism,Physics inspiration,Quantum mechanics,Statistical physics},
+  timestamp = {2024-10-31T08:05:26Z},
+  file = {Jiao2024-ai_meets_physics_a_comprehensive_survey.pdf:Jiao2024-ai_meets_physics_a_comprehensive_survey.pdf:application/pdf}
+}
+
 @article{Johnson2024Comparison,
   title = {Comparison of Transport Models in Dense Plasmas},
   author = {Johnson, Zachary A. and Silvestri, Luciano G. and Petrov, George M. and Stanton, Liam G. and Murillo, Michael S.},
@@ -1398,7 +1553,7 @@
   urldate = {2024-10-18},
   abstract = {We compare a variety of models used for the calculation of transport coefficients in dense plasmas, including average-atom models, models based on kinetic theory, structure matching effective potentials, and pair-potential molecular dynamics. In particular, we focus on the parameter space investigated in the second charged-particle transport coefficient code comparison workshop [Stanek et al., Phys. Plasmas 31, 052104 (2024)]. Each model is based on the self-consistent output of our average-atom calculations. Ionic transport properties are generated from implicit electron pair matched molecular dynamics simulations, bypassing the need for either dynamical electron simulations or on-the-fly electronic structure calculations. These matched pair potentials are generated in a nonlinear way using a classical mapping procedure, further avoiding an expensive force-matching procedure. We compare these results with the density functional theory data presented at the workshop, as well as a set of widely used parametric models, which we have modified to enhance accuracy, especially at the low- and high-temperature extremes of the parameter space. We also detail the non-trivial statistical aspect of converging ionic transport coefficients.},
   timestamp = {2024-10-18T16:52:40Z},
-  file = {Johnson2024-comparison_of_transport_models_in_dense_plasmas.pdf:../../../../media/Data/ifts_study/AB-paper/Johnson2024-comparison_of_transport_models_in_dense_plasmas.pdf:application/pdf}
+  file = {Johnson2024-comparison_of_transport_models_in_dense_plasmas.pdf:Johnson2024-comparison_of_transport_models_in_dense_plasmas.pdf:application/pdf}
 }
 
 @article{Johnston2024overview,
@@ -1418,7 +1573,7 @@
   abstract = {An overview of the preparation and implementation of the JET 2nd deuterium-tritium experiment (DTE2) safety case is presented. The safety case regime, developed by UKAEA for fusion applications to demonstrate compliance with relevant regulations, and its implementation on UKAEA sites is outlined. The hazard assessment process and details of the methodology applied to assess key JET fault scenarios are provided. An outline of key inventories, their composition, and applied factors for consequence and risk assessment are discussed. The consequences resulting from key fault sequences, the designation of appropriate safety measures and the associated risks are summarised and compared against basic safety limits and objectives. Finally, some of the lessons learned from DTE2 following implementation are discussed.},
   langid = {english},
   timestamp = {2024-06-14T01:27:11Z},
-  file = {Johnston2024_An_overview_of_the_preparation_and_implementation_of_the_safety_case_in_support.pdf:Johnston2024_An_overview_of_the_preparation_and_implementation_of_the_safety_case_in_support.pdf:application/pdf}
+  file = {Johnston2024-an_overview_of_the_preparation_and_implementation_of_the_safety_case_in_support_of_the_2nd_jet_deute.pdf:Johnston2024-an_overview_of_the_preparation_and_implementation_of_the_safety_case_in_support_of_the_2nd_jet_deute.pdf:application/pdf}
 }
 
 @article{Joung2024Tokamak,
@@ -1477,6 +1632,26 @@
   langid = {english},
   timestamp = {2024-05-12T05:22:25Z},
   file = {Kawachi2024_Mass_dependency_of_high-wavenumber_turbulence_in_a_linear_partially_magnetized.pdf:Kawachi2024_Mass_dependency_of_high-wavenumber_turbulence_in_a_linear_partially_magnetized.pdf:application/pdf}
+}
+
+@article{Khabanov2024Density,
+  title = {Density Fluctuation Statistics and Turbulence Spreading at the Edge of {{L}}–Mode Plasmas},
+  author = {Khabanov, F. O. and Hong, R. and Diamond, P. H. and Tynan, G. R. and Yan, Z. and McKee, G. R. and Chrystal, C. and Scotti, F. and Yu, G. and Zamperini, S. A. and Zhu, Y.},
+  date = {2024-10},
+  journaltitle = {Nuclear Fusion},
+  shortjournal = {Nucl. Fusion},
+  volume = {64},
+  number = {12},
+  pages = {126056},
+  publisher = {IOP Publishing},
+  issn = {0029-5515},
+  doi = {10.1088/1741-4326/ad820d},
+  url = {https://dx.doi.org/10.1088/1741-4326/ad820d},
+  urldate = {2024-10-23},
+  abstract = {Long-wavelength density fluctuations ( {$<$}1) are studied using beam emission spectroscopy (BES) at the edge of DIII-D L-mode plasmas ( = 0.88–1.1) in scenarios with electron cyclotron heating (ECH) power ramp ( up to 1.5 MW), neutral beam injection (NBI) power ramp ( up to 2.5 MW), and injected torque scan (−1 {$<$} {$<$}0.6 Nm). We find that broadband turbulent density fluctuations ( ∼ 20–120 kHz) have a non-Gaussian distribution. The skewness of changes sign from negative at {$<$}0.95–0.97 to positive at {$>$} 0.97, indicating the prevalence of density ‘voids’ at inner radii and density ‘blobs’ at outer radii and outside of the separatrix. The turbulence intensity flux is calculated to characterize turbulence spreading at the plasma edge. During ECH/NBI power ramps and at counter- injected torque, is directed inward inside the separatrix, which is evidence of inward spreading of turbulence intensity from the edge gradient region caused by the inner propagation of density ‘voids’. Significantly weaker is observed with co- torque. A correlation between co- torque, turbulence intensity at = 0.97, and increased srape-off layer (SOL) heat flux decay length is found in the torque scan scenario, showing that edge turbulence plays a material role in determining the SOL conditions and heat flux width.},
+  langid = {english},
+  timestamp = {2024-10-23T07:13:59Z},
+  file = {Khabanov2024-density_fluctuation_statistics_and_turbulence_spreading_at_the_edge_of_l–mode_plasmas.pdf:Khabanov2024-density_fluctuation_statistics_and_turbulence_spreading_at_the_edge_of_l–mode_plasmas.pdf:application/pdf}
 }
 
 @article{Kim2024Finite,
@@ -1647,7 +1822,7 @@
   urldate = {2024-10-18},
   abstract = {In this study, within the framework of electron magnetohydrodynamics, taking into account thermomagnetic phenomena, we obtained a new large-scale instability of the  α-effect type, which ensures the generation of large-scale vortex and magnetic fields. This instability occurs in a flat layer of temperature-stratified plasma under the influence of an external uniform magnetic field inclined relative to the layer, combined with a small-scale external force having zero helicity. The external force is presented as a source of small-scale oscillations in the speed of electrons with a low Reynolds number  R≪1. The presence of a small parameter in the system allowed us to apply the method of multiscale asymptotic expansions to derive nonlinear equations for vortex and magnetic disturbances. These equations were obtained in third-order Reynolds number. Using solutions for the velocity field in zero order in Reynolds number, we determined the average helicity  H=v0·rotv0¯ and its relation to the  α-effect. A necessary condition for the generation of average helicity in stratified magnetized plasma is the inclined orientation of the external magnetic field and the presence of a small-scale force. A new effect related to the influence of thermal force (the Nernst effect) on large-scale instability is discussed. It is shown that an increase in the Nernst parameter leads to a decrease in the amplification factor  α and thereby prevents the development of large-scale instability. With the help of numerical analysis, stationary solutions to the vortex and magnetic dynamo equations in the form of localized structures like nonlinear waves of the Beltrami were obtained.},
   timestamp = {2024-10-18T16:53:21Z},
-  file = {Kopp2024-generation_of_large-scale_magnetic-vortex_structures_in_stratified_magnetized_plasma_by_a_small-scal.pdf:../../../../media/Data/ifts_study/AB-paper/Kopp2024-generation_of_large-scale_magnetic-vortex_structures_in_stratified_magnetized_plasma_by_a_small-scal.pdf:application/pdf}
+  file = {Kopp2024-generation_of_large-scale_magnetic-vortex_structures_in_stratified_magnetized_plasma_by_a_small-scal.pdf:Kopp2024-generation_of_large-scale_magnetic-vortex_structures_in_stratified_magnetized_plasma_by_a_small-scal.pdf:application/pdf}
 }
 
 @article{Korving2024Simulation,
@@ -1853,7 +2028,7 @@
   urldate = {2024-10-18},
   abstract = {Shear Alfvén wave parametric decay instability (PDI) provides a potential path toward significant wave dissipation and plasma heating. However, fundamental questions regarding how PDI is excited in a realistic three-dimensional (3D) open system and how the finite perpendicular wave scale—as found in both laboratory and space plasmas—affects the excitation remain poorly understood. Here, we present the first 3D, open-boundary, hybrid kinetic-fluid simulations of kinetic Alfvén wave PDI in low-beta plasmas. Key findings are that the PDI excitation is strongly limited by the wave damping present, including electron–ion collisional damping (represented by a constant resistivity) and geometrical attenuation associated with the finite-scale Alfvén wave, and ion Landau damping of the child acoustic wave. The perpendicular wave scale alone, however, plays no discernible role: waves of different perpendicular scales exhibit similar instability excitation as long as the magnitude of the parallel ponderomotive force remains unchanged. These findings are corroborated by theoretical analysis and estimates. This new understanding of 3D kinetic Alfvén wave PDI physics is essential for laboratory study of the basic plasma process and may also aid future evaluation of the relevance/role of PDI in low-beta space plasma.},
   timestamp = {2024-10-18T17:25:41Z},
-  file = {Li2024-effects_of_wave_damping_and_finite_perpendicular_scale_on_three-dimensional_alfvén_wave_parametric_d.pdf:../../../../media/Data/ifts_study/AB-paper/Li2024-effects_of_wave_damping_and_finite_perpendicular_scale_on_three-dimensional_alfvén_wave_parametric_d.pdf:application/pdf}
+  file = {Li2024-effects_of_wave_damping_and_finite_perpendicular_scale_on_three-dimensional_alfvén_wave_parametric_d.pdf:Li2024-effects_of_wave_damping_and_finite_perpendicular_scale_on_three-dimensional_alfvén_wave_parametric_d.pdf:application/pdf}
 }
 
 @article{Li2024Finite,
@@ -1893,6 +2068,43 @@
   file = {Li2024_Identification_of_Coupled_Landau_and_Anomalous_Resonances_in_Space_Plasmas.pdf:Li2024_Identification_of_Coupled_Landau_and_Anomalous_Resonances_in_Space_Plasmas.pdf:application/pdf}
 }
 
+@article{Li2024Limit,
+  title = {Limit Cycle Oscillations in the Zonal-Flow-Catalyzed Interactions of Ion-Temperature-Gradient Turbulence},
+  author = {Li, P.-Y. and Terry, P. W.},
+  date = {2024-10-25},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {31},
+  number = {10},
+  pages = {102304},
+  issn = {1070-664X},
+  doi = {10.1063/5.0226794},
+  url = {https://doi.org/10.1063/5.0226794},
+  urldate = {2024-10-31},
+  abstract = {Limit-cycle oscillations are studied for ion temperature gradient turbulence, which, in the absence of large diamagnetic (mean) shear flows, saturates through energy transfer from unstable modes to large-scale stable modes via zonal-flow intermediary modes. Oscillations of zonal flow and turbulence levels are strongly constrained by the reactive, largely non-dissipative character of the zonal flows. Since existing predator–prey models for observed oscillations in experiments do not include energy transfer through zonal flows to stable modes, low-order fluid models with this physics are constructed and investigated. A simple three-wave truncation produces low-amplitude zonal flows that slowly oscillate around a zero mean, with turbulence oscillations between coupled wavenumbers that exceed linear frequencies by orders of magnitude. This inconsistency with experimental observations is caused by the weak non-linear drive of zonal flows in three-wave systems and the lack of multiple-wavenumber turbulent interactions. A more comprehensive model that preserves multiple wavenumber interactions within the context of conservative zonal-flow-mediated energy transfer to stable modes accurately reflects observed dynamics when the phase between stable and unstable modes is occasionally randomized.},
+  timestamp = {2024-10-31T11:34:29Z},
+  file = {Li2024-limit_cycle_oscillations_in_the_zonal-flow-catalyzed_interactions_of_ion-temperature-gradient_turbul.pdf:Li2024-limit_cycle_oscillations_in_the_zonal-flow-catalyzed_interactions_of_ion-temperature-gradient_turbul.pdf:application/pdf}
+}
+
+@article{Li2024Verification,
+  title = {Verification of the Kinetic Electron Role in the Microinstabilities in a Negative Triangularity Model Equilibrium},
+  author = {Li, Jessica L. and Chang, C. S. and Hager, Robert and Reiman, Allan and Zarnstorff, Michael C.},
+  date = {2024-10-23},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {31},
+  number = {10},
+  pages = {102110},
+  issn = {1070-664X},
+  doi = {10.1063/5.0205813},
+  url = {https://doi.org/10.1063/5.0205813},
+  urldate = {2024-10-31},
+  abstract = {Effect of kinetic electrons on negative triangularity plasmas has been investigated and compared against the corresponding positive triangularity plasmas, using the global gyrokinetic code X-point Gyrokinetic Code with scale-separated delta-f option without Coulomb collisions. Our model magnetic equilibria have strong positive and negative triangularities and weak magnetic shear. However, unusually large  ρi/a and low density plasmas are chosen to maximize the nonlocal effect to investigate the finite ρi effect and to be clearly away from kinetic ballooning modes. Similar conclusions to previous flux tube and global simulations have been obtained in this highly nonlocal model plasma: it is essential to include kinetic electrons in the micro-instability study of negative triangularity plasmas. Most physics findings agree with existing reports, with some disagreement. We offer a new “effective trapping fraction” concept that can add to the explanation of the growth rate difference between NT and PT plasmas, pointing to the significant variation in trapped particle fractions that have turning points in the mode growth regions.},
+  langid = {american},
+  timestamp = {2024-10-31T11:31:39Z},
+  file = {Li2024-verification_of_the_kinetic_electron_role_in_the_microinstabilities_in_a_negative_triangularity_mode.pdf:Li2024-verification_of_the_kinetic_electron_role_in_the_microinstabilities_in_a_negative_triangularity_mode.pdf:application/pdf}
+}
+
 @article{Litaudon2024EUROfusion,
   title = {{{EUROfusion}} Contributions to {{ITER}} Nuclear Operation},
   author = {Litaudon, X. and Fantz, U. and Villari, R. and Toigo, V. and Aumeunier, M.-H. and Autran, J.-L. and Batistoni, P. and Belonohy, E. and Bradnam, S. and Cecchetto, M. and Colangeli, A. and Dacquait, F. and Bello, S. Dal and Dentan, M. and Pietri, M. De and Eriksson, J. and Fabbri, M. and Falchetto, G. and Figini, L. and Figueiredo, J. and Flammini, D. and Fonnesu, N. and Frassinetti, L. and Galdón-Quiroga, J. and Garcia-Alia, R. and Garcia-Munoz, M. and Ghani, Z. and Gonzalez-Martin, J. and Grelier, E. and Grazia, L. Di and Grove, B. and Grove, C. L. and Gusarov, A. and Heinemann, B. and Hjalmarsson, A. and Hyvärinen, O. and Ioannou-Sougleridis, V. and Jones, L. and Kim, H.-T. and Kłosowski, M. and Kocan, M. and Kos, B. and Kos, L. and Kotnik, D. and Laszynska, E. and Leichtle, D. and Lengar, I. and Leon-Gutierrez, E. and López-Revelles, A. J. and Loreti, S. and Loughlin, M. and Marcuzzi, D. and Mcclements, K. G. and Mariano, G. and Mattei, M. and Mergia, K. and Mietelski, J. and Mitteau, R. and Moindjie, S. and Munteanu, D. and Naish, R. and Noce, S. and Packer, L. W. and Pamela, S. and Pampin, R. and Pau, A. and Peacock, A. and Peluso, E. and Peneliau, Y. and Peric, J. and Radulović, V. and Ricci, D. and Rimini, F. and Sanchis-Sanchez, L. and Sauvan, P. and Savva, M. I. and Serianni, G. and Shand, C. R. and Snicker, A. and Snoj, L. and Stamatelatos, I. E. and Štancar, Ž and Terranova, N. and Vasilopoulou, T. and Vila, R. and Waterhouse, J. and Wimmer, C. and Wünderlich, D. and Žohar, A. and Team, the NBTF and Contributors, J. E. T. and Team, the EUROfusion Tokamak Exploitation},
@@ -1910,7 +2122,27 @@
   abstract = {ITER is of key importance in the European fusion roadmap as it aims to prove the scientific and technological feasibility of fusion as a future energy source. The EUROfusion consortium of labs within Europe is contributing to the preparation of ITER scientific exploitation and operation and aspires to exploit ITER outcomes in view of DEMO. The paper provides an overview of the major progress obtained recently, carried out in the frame of the new (initiated in 2021) EUROfusion work-package called ‘Preparation of ITER Operation’ (PrIO). The overview paper is directly supported by the eleven EUROfusion PrIO contributions given at the 29th Fusion Energy Conference (16–21 October 2023) London, UK [www.iaea.org/events/fec2023]. The paper covers the following topics: (i) development and validation of tools in support to ITER operation (plasma breakdown/burn-through with evolving plasma volume, new infra-red synthetic diagnostic for off-line analysis and wall monitoring using Artificial Intelligence techniques, synthetic diagnostics development, development and exploitation of multi-machine databases); (ii) R\&D for the radio-frequency ITER neutral beam sources leading to long duration of negative deuterium/hydrogen ions current extraction at ELISE and participation in the neutral beam test facility with progress on the ITER source SPIDER, and, the commissioning of the 1 MV high voltage accelerator (MITICA) with lessons learned for ITER; (iii) validation of neutronic tools for ITER nuclear operation following the second JET deuterium–tritium experimental campaigns carried out in 2021 and in 2023 (neutron streaming and shutdown dose rate calculation, water activation and activated corrosion products with advanced fluid dynamic simulation; irradiation of several materials under 14.1 MeV neutron flux etc).},
   langid = {english},
   timestamp = {2024-10-16T13:03:31Z},
-  file = {Litaudon2024-eurofusion_contributions_to_iter_nuclear_operation.pdf:../../../../media/Data/ifts_study/AB-paper/Litaudon2024-eurofusion_contributions_to_iter_nuclear_operation.pdf:application/pdf}
+  file = {Litaudon2024-eurofusion_contributions_to_iter_nuclear_operation.pdf:Litaudon2024-eurofusion_contributions_to_iter_nuclear_operation.pdf:application/pdf}
+}
+
+@article{Litaudon2024Summary,
+  title = {Summary of the 29th {{IAEA}} Fusion Energy Conference under the Topics Magnetic Fusion Experiments ({{EX}}) and Innovative \& Alternative Concepts ({{IAC}})},
+  author = {Litaudon, X. and Mazon, D.},
+  date = {2024-10},
+  journaltitle = {Nuclear Fusion},
+  shortjournal = {Nucl. Fusion},
+  volume = {64},
+  number = {11},
+  pages = {117003},
+  publisher = {IOP Publishing},
+  issn = {0029-5515},
+  doi = {10.1088/1741-4326/ad5365},
+  url = {https://dx.doi.org/10.1088/1741-4326/ad5365},
+  urldate = {2024-11-01},
+  abstract = {The paper provides a high level summary of the contributions given at the 29th International Atomic Energy Agency Fusion Energy Conference (FEC 2023) London, United Kingdom, 16–21 October 2023 (available at: https://iaea.org/events/fec2023) under the categories ‘Magnetic Fusion Experiments including validation’ (EX) and ‘Innovative \& Alternative Concepts’ covering linear configuration, non-magnetic configurations, fusion-fission hybrids concepts. For the category EX, the summary is limited to three sub-categories Heating \& Current Drive, Waves, Stability. The experimental results reported in this publication cover the period since the previous 28th FEC, which was a virtual event held from 10th to 15 May 2021.},
+  langid = {english},
+  timestamp = {2024-11-01T10:48:44Z},
+  file = {Litaudon2024-summary_of_the_29th_iaea_fusion_energy_conference_under_the_topics_magnetic_fusion_experiments_(ex).pdf:Litaudon2024-summary_of_the_29th_iaea_fusion_energy_conference_under_the_topics_magnetic_fusion_experiments_(ex).pdf:application/pdf}
 }
 
 @article{Liu2023SelfConsistent,
@@ -2065,7 +2297,7 @@
   abstract = {We study numerically the feasibility of achieving the L-H transition in the current EU-DEMO tokamak baseline using uniquely direct electron heating. The ASTRA code coupled to the TGLF turbulent transport model is used to predict steady-state kinetic plasma profiles for diverse numerical scans. Among them, we have varied the separatrix electron density, the total amount of ECRH power, the microwave beam deposition profile and the plasma impurity content. The solutions are then compared to L-H transition scaling laws to assess whether the found plasma state would enter into H-mode. We find the plasma density and impurity content to be the key variables setting the boundaries in parameter space where the L-H transition is feasible. When impurities can be controlled under a certain threshold, given here for a fully shaped DEMO plasma, the L-H transition is achieved in all the studied conditions.},
   langid = {english},
   timestamp = {2024-10-21T13:52:56Z},
-  file = {IOP Full Text PDF:../../../../media/Data/ifts_study/AB-paper/López2024-the_feasibility_of_the_l-h_transition_for_a_purely_electron-heated_eu-demo_tokamak.pdf:application/pdf}
+  file = {López2024-the_feasibility_of_the_l-h_transition_for_a_purely_electron-heated_eu-demo_tokamak.pdf:López2024-the_feasibility_of_the_l-h_transition_for_a_purely_electron-heated_eu-demo_tokamak.pdf:application/pdf}
 }
 
 @article{Madeira2024Tokamak,
@@ -2104,7 +2336,7 @@
   urldate = {2024-10-18},
   abstract = {We introduce EFIT-Prime, a novel machine learning surrogate model for EFIT (Equilibrium FIT) that integrates probabilistic and physics-informed methodologies to overcome typical limitations associated with deterministic and ad hoc neural network architectures. EFIT-Prime utilizes a neural architecture search-based deep ensemble for robust uncertainty quantification, providing scalable and efficient neural architectures that comprehensively quantify both data and model uncertainties. Physically informed by the Grad–Shafranov equation, EFIT-Prime applies a constraint on the current density  Jtor and a smoothness constraint on the first derivative of the poloidal flux, ensuring physically plausible solutions. Furthermore, the spatial location of the diagnostics is explicitly incorporated in the inputs to account for their spatial correlation. Extensive evaluations demonstrate EFIT-Prime's accuracy and robustness across diverse scenarios, most notably showing good generalization on negative-triangularity discharges that were excluded from training. Timing studies indicate an ensemble inference time of 15\,ms for predicting a new equilibrium, offering the possibility of plasma control in real-time, if the model is optimized for speed.},
   timestamp = {2024-10-18T17:26:41Z},
-  file = {Madireddy2024-efit-prime_probabilistic_and_physics-constrained_reduced-order_neural_network_model_for_equilibrium.pdf:../../../../media/Data/ifts_study/AB-paper/Madireddy2024-efit-prime_probabilistic_and_physics-constrained_reduced-order_neural_network_model_for_equilibrium.pdf:application/pdf}
+  file = {Madireddy2024-efit-prime_probabilistic_and_physics-constrained_reduced-order_neural_network_model_for_equilibrium.pdf:Madireddy2024-efit-prime_probabilistic_and_physics-constrained_reduced-order_neural_network_model_for_equilibrium.pdf:application/pdf}
 }
 
 @article{Maeyama2024Overview,
@@ -2124,7 +2356,7 @@
   abstract = {Turbulent transport in magnetically confined fusion plasma has conventionally been analyzed at the ion gyroradius scale based on the microturbulence theory. However, ion-scale turbulence analysis sometimes fails to predict the turbulent transport flux observed experimentally. Microturbulence at the electron gyroradius scale and cross-scale interactions between disparate-scale turbulences are possible mechanisms to resolve this issue. This overview discusses the recent progress in multiscale turbulence studies and presents future perspectives from recent experimental, theoretical, and numerical investigations. The following aspects are highlighted: (1) the importance of electron-scale effects in experiments, (2) the physical mechanisms of cross-scale interactions, (3) modeling electron-scale effects in quasilinear transport models, and (4) the impacts of cross-scale interactions on burning plasmas. Understanding multiscale turbulence is necessary to improve performance prediction and explore optimal operations for future burning plasmas.},
   langid = {english},
   timestamp = {2024-10-16T12:49:27Z},
-  file = {Maeyama2024-overview_of_multiscale_turbulence_studies_covering_ion-to-electron_scales_in_magnetically_confined_f.pdf:../../../../media/Data/ifts_study/AB-paper/Maeyama2024-overview_of_multiscale_turbulence_studies_covering_ion-to-electron_scales_in_magnetically_confined_f.pdf:application/pdf}
+  file = {Maeyama2024-overview_of_multiscale_turbulence_studies_covering_ion-to-electron_scales_in_magnetically_confined_f.pdf:Maeyama2024-overview_of_multiscale_turbulence_studies_covering_ion-to-electron_scales_in_magnetically_confined_f.pdf:application/pdf}
 }
 
 @article{Martynov2024Virial,
@@ -2143,7 +2375,7 @@
   urldate = {2024-10-18},
   abstract = {Using the SPIDER code, three series of calculations of plasma equilibrium in a tokamak are performed—with low, medium, and high pressure. In each series, the cross section is purely elliptical with elongation varying from  K=1 (circular plasma) to  K=2.4. For these configurations, the integrals  S1÷S3 defining the right-hand sides of the virial relations in Lao et al. [Nucl. Fusion 25, 1421 (1985)] are calculated. Their dependences on plasma parameters, elongation  K of magnetic surfaces, and radial derivatives of  K and Shafranov shift  Δ are analyzed. The accuracy of analytical expressions for  S1÷S3 proposed in Pustovitov [Phys. Plasmas 29, 092507 (2022)] is assessed.},
   timestamp = {2024-10-18T16:54:14Z},
-  file = {Martynov2024-virial_relations_for_elongated_plasmas_in_tokamaks_analytical_approximations_and_numerical_calculat.pdf:../../../../media/Data/ifts_study/AB-paper/Martynov2024-virial_relations_for_elongated_plasmas_in_tokamaks_analytical_approximations_and_numerical_calculat.pdf:application/pdf}
+  file = {Martynov2024-virial_relations_for_elongated_plasmas_in_tokamaks_analytical_approximations_and_numerical_calculat.pdf:Martynov2024-virial_relations_for_elongated_plasmas_in_tokamaks_analytical_approximations_and_numerical_calculat.pdf:application/pdf}
 }
 
 @article{McClenaghan2024Augmenting,
@@ -2162,7 +2394,7 @@
   abstract = {This work presents a method for predicting plasma equilibria in tokamak fusion experiments and reactors. The approach involves representing the plasma current as a linear combination of basis functions using principal component analysis of plasma toroidal current densities ( Jt) from the EFIT-AI equilibrium database. Then utilizing EFIT's Green's function tables, basis functions are created for the poloidal flux ( ψ) and diagnostics generated from the toroidal current ( Jt). Similar to the idea of a physics-informed neural network (NN), this physically enforces consistency between  ψ,  Jt, and the synthetic diagnostics. First, the predictive capability of a least squares technique to minimize the error on the synthetic diagnostics is employed. The results show that the method achieves high accuracy in predicting  ψ and moderate accuracy in predicting  Jt with median  R2\,=\,0.9993 and  R2\,=\,0.978, respectively. A comprehensive NN using a network architecture search is also employed to predict the coefficients of the basis functions. The NN demonstrates significantly better performance compared to the least squares method with median  R2\,=\,0.9997 and 0.9916 for  Jt and  ψ, respectively. The robustness of the method is evaluated by handling missing or incorrect data through the least squares filling of missing data, which shows that the NN prediction remains strong even with a reduced number of diagnostics. Additionally, the method is tested on plasmas outside of the training range showing reasonable results.},
   annotation = {TLDR: The predictive capability of a least squares technique to minimize the error on the synthetic diagnostics is employed and the robustness of the method is evaluated by handling missing or incorrect data through the least squares filling of missing data, which shows that the NN prediction remains strong even with a reduced number of diagnostics.},
   timestamp = {2024-10-18T17:21:18Z},
-  file = {McClenaghan2024-augmenting_machine_learning_of_grad–shafranov_equilibrium_reconstruction_with_green's_functions.pdf:../../../../media/Data/ifts_study/AB-paper/McClenaghan2024-augmenting_machine_learning_of_grad–shafranov_equilibrium_reconstruction_with_green's_functions.pdf:application/pdf}
+  file = {McClenaghan2024-augmenting_machine_learning_of_grad–shafranov_equilibrium_reconstruction_with_green's_functions.pdf:McClenaghan2024-augmenting_machine_learning_of_grad–shafranov_equilibrium_reconstruction_with_green's_functions.pdf:application/pdf}
 }
 
 @article{McClenaghan2024Examining,
@@ -2316,6 +2548,24 @@
   file = {Murabito2024_Observation_of_Alfv-'en_Wave_Reflection_in_the_Solar_Chromosphere.pdf:Murabito2024_Observation_of_Alfv-'en_Wave_Reflection_in_the_Solar_Chromosphere.pdf:application/pdf}
 }
 
+@article{Murugappan2024Gyrokinetic,
+  title = {Gyrokinetic Flux-Driven Simulations in Mixed {{TEM}}/{{ITG}} Regime Using a Delta-f {{PIC}} Scheme with Evolving Background},
+  author = {Murugappan, M. and Villard, L. and Brunner, S. and Di Giannatale, G. and McMillan, B. F. and Bottino, A.},
+  date = {2024-11-11},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {31},
+  number = {11},
+  pages = {113901},
+  issn = {1070-664X},
+  doi = {10.1063/5.0233727},
+  url = {https://doi.org/10.1063/5.0233727},
+  urldate = {2024-11-18},
+  abstract = {In the context of global gyrokinetic simulations of turbulence using a particle-in-cell framework, verifying the delta-f assumption with a fixed background distribution becomes challenging when determining quasi-steady state profiles corresponding to given sources over long time scales, where plasma profiles can evolve significantly. The advantage of low relative sampling noise afforded by the delta-f scheme is shown to be retained by considering the background as a time-evolving Maxwellian with time-dependent density and temperature profiles. Implementation of this adaptive scheme to simulate electrostatic collisionless flux-driven turbulence in tokamak plasmas show small and nonincreasing sampling noise levels, which would otherwise increase indefinitely with a stationary background scheme. The adaptive scheme furthermore allows one to reach numerically converged results of quasi-steady state with much lower marker numbers.},
+  timestamp = {2024-11-18T07:05:12Z},
+  file = {Murugappan2024-gyrokinetic_flux-driven_simulations_in_mixed_temitg_regime_using_a_delta-f_pic_scheme_with_evolving.pdf:Murugappan2024-gyrokinetic_flux-driven_simulations_in_mixed_temitg_regime_using_a_delta-f_pic_scheme_with_evolving.pdf:application/pdf}
+}
+
 @article{Nan2024Study,
   title = {Study of the Evolution of Density and Particle Transport during Density Relaxation Phase after Pellet Fueling on the {{EAST}} Tokamak},
   author = {Nan, K. B. and Hou, J. L. and Zhang, J. and Chu, Y. Q. and Hao, B. L. and Li, P. and He, Y. F. and Yuan, J. S. and Geng, J. S. and Wu, X. H. and Si, Z. Y. and Wang, S. X. and Zhou, Z. and Qiu, H. T. and Cao, B. and Zhao, H. L. and Zuo, G. Z. and Hu, J. S. and family=Team, given=EAST, given-i=EAST},
@@ -2370,7 +2620,27 @@
   abstract = {Tokamak plasmas with strong negative triangularity (NT) shaping typically exhibit fundamentally different edge behavior than conventional L-mode or H-mode plasmas. On DIII-D, every plasma with sufficiently negative triangularity () is found to be inherently free of edge localized modes (ELMs), even at injected powers well above the predicted L-H power threshold. It is also possible to access an ELM-free state at weaker average triangularities, provided that at least one of the two x-points is still sufficiently negative. Access to the ELM-free NT scenario is found to coincide with the closure of the second stability region for infinite-n ballooning modes, suggesting that ballooning stability may play a role in limiting the accessible pressure gradient in NT plasmas. Despite this, NT plasmas are able to support small pedestals and are typically characterized by an enhancement of edge pressure gradients beyond those found in traditional L-mode plasmas. Furthermore, the pressure gradient inside of this small pedestal is unusually steep, allowing access to high core performance that is competitive with other ELM-free regimes previously achieved on DIII-D. Since ELM-free operation in NT is linked directly to the magnetic geometry, NT fusion pilot plants are predicted to maintain advantageous edge conditions even in burning plasma regimes, potentially eliminating reactor core-integration issues caused by ELMs.},
   langid = {english},
   timestamp = {2024-10-22T03:08:29Z},
-  file = {Nelson2024-characterization_of_the_elm-free_negative_triangularity_edge_on_diii-d.pdf:../../../../media/Data/ifts_study/AB-paper/Nelson2024-characterization_of_the_elm-free_negative_triangularity_edge_on_diii-d.pdf:application/pdf}
+  file = {Nelson2024-characterization_of_the_elm-free_negative_triangularity_edge_on_diii-d.pdf:Nelson2024-characterization_of_the_elm-free_negative_triangularity_edge_on_diii-d.pdf:application/pdf}
+}
+
+@article{Nelson2024First,
+  title = {First Access to {{ELM-free}} Negative Triangularity at Low Aspect Ratio},
+  author = {Nelson, A. O. and Vincent, C. and Anand, H. and Lovell, J. and Parisi, J. F. and Wilson, H. S. and Imada, K. and Wehner, W. P. and Kochan, M. and Blackmore, S. and McArdle, G. and Guizzo, S. and Rondini, L. and Freiberger, S. and Paz-Soldan, C. and Team, the MAST-U.},
+  date = {2024-10},
+  journaltitle = {Nuclear Fusion},
+  shortjournal = {Nucl. Fusion},
+  volume = {64},
+  number = {12},
+  pages = {124004},
+  publisher = {IOP Publishing},
+  issn = {0029-5515},
+  doi = {10.1088/1741-4326/ad89db},
+  url = {https://dx.doi.org/10.1088/1741-4326/ad89db},
+  urldate = {2024-10-31},
+  abstract = {A plasma scenario with negative triangularity (NT) shaping is achieved on MAST-U for the first time. While edge localized modes (ELMs) are eventually suppressed as the triangularity is decreased below , an extended period of H-mode operation with Type-III ELMs is sustained at less negative δ even through access to the second stability region for ideal ballooning modes is closed. This documents a qualitative difference from the ELM-free access conditions documented in NT scenarios on conventional aspect ratio machines. The electron temperature at the pedestal top drops across the transition to ELM-free operation, but a steady rise in core temperature as δ is decreased allows for similar normalized β in the ELM-free NT and H-mode positive triangularity shapes.},
+  langid = {english},
+  timestamp = {2024-10-31T11:35:42Z},
+  file = {Nelson2024-first_access_to_elm-free_negative_triangularity_at_low_aspect_ratio.pdf:Nelson2024-first_access_to_elm-free_negative_triangularity_at_low_aspect_ratio.pdf:application/pdf}
 }
 
 @article{Nishiura2024Core,
@@ -2409,7 +2679,7 @@
   abstract = {This work presents the results following the first irradiation of ITER materials samples in a tokamak D–T plasma environment operating at significant fusion power. The materials exposed to this nuclear environment at the Joint European Torus during the DTE2 experimental campaign that took place in 2021 include representative ITER samples from various components such as poloidal field coil jacket samples, toroidal field coil radial closure plate steels, EUROFER 97 steel, W and CuCrZr materials from the divertor, Inconel-718 and 316L stainless steel for blanket modules, as well as vacuum vessel forging samples. The experimental results discussed include high-resolution gamma spectrometry measurements and analysis conducted with the post-irradiated samples, of which there were 68 in total. These samples were exposed through different experimental campaigns, including deuterium, deuterium–tritium and tritium phases. Diagnostics that supported the analysis included 25 dosimetry foil-based neutron diagnostics and two ‘VERDI’ neutron spectrometry diagnostics. A further 12 samples for positron annihilation spectroscopy were also irradiated. The irradiation of all these samples took place in a long-term irradiation assembly located near the JET vacuum vessel. The post-irradiation analysis of the ITER material samples has yielded valuable insights into their material activation levels and radiation fields. Comparative assessments between experimental measurements and comprehensive neutronics simulations have demonstrated a significant level of agreement in this work, while also revealing some discrepancies in specific material instances. The data and interpretation from this work not only serve as a robust experimental foundation for enhancing the precision and predictability of neutronics simulation approaches for ITER and next-step devices but also present some opportunities for the refinement of simulation methodologies. In light of these findings, a series of recommendations have been proposed, aimed at improving confidence in nuclear predictions associated with materials that have been exposed to fusion nuclear environments and advancing understanding in this important domain.},
   langid = {english},
   timestamp = {2024-10-18T17:42:24Z},
-  file = {Packer2024-iter_materials_irradiation_within_the_d–t_neutron_environment_at_jet_post-irradiation_radioactivity.pdf:../../../../media/Data/ifts_study/AB-paper/Packer2024-iter_materials_irradiation_within_the_d–t_neutron_environment_at_jet_post-irradiation_radioactivity.pdf:application/pdf}
+  file = {Packer2024-iter_materials_irradiation_within_the_d–t_neutron_environment_at_jet_post-irradiation_radioactivity.pdf:Packer2024-iter_materials_irradiation_within_the_d–t_neutron_environment_at_jet_post-irradiation_radioactivity.pdf:application/pdf}
 }
 
 @article{Palastro2024SpaceTime,
@@ -2470,6 +2740,27 @@
   file = {Patel2024_Turbulence_generation_in_the_solar_corona_through_nonlinear_interaction_between.pdf:Patel2024_Turbulence_generation_in_the_solar_corona_through_nonlinear_interaction_between.pdf:application/pdf}
 }
 
+@article{Poli2024Summary,
+  title = {Summary of the Theory and Modeling Contributions at the 29th {{IAEA Fusion Energy Conference}} ({{FEC}} 2023)},
+  author = {Poli, Francesca M.},
+  date = {2024-10},
+  journaltitle = {Nuclear Fusion},
+  shortjournal = {Nucl. Fusion},
+  volume = {64},
+  number = {11},
+  pages = {117001},
+  publisher = {IOP Publishing},
+  issn = {0029-5515},
+  doi = {10.1088/1741-4326/ad7d1b},
+  url = {https://dx.doi.org/10.1088/1741-4326/ad7d1b},
+  urldate = {2024-11-01},
+  abstract = {The contributions in magnetic confinement fusion theory presented at the 29th Fusion Energy Conference (FEC 2003) are summarized here. This summary aims at providing an overview of the advances in the field and new directions in integrated modeling, computational physics, control design and application of artificial intelligence to discharge design and optimization. Given the increasing interest in bringing fusion to the grid and the focus on design and discharge optimization by means of self-consistent simulations that integrate physics and engineering with a hierarchy of fidelity models, the layout of this summary highlights applications over fundamental theory.},
+  langid = {english},
+  annotation = {TLDR: An overview of the advances in the field and new directions in integrated modeling, computational physics, control design and application of artificial intelligence to discharge design and optimization is provided.},
+  timestamp = {2024-11-01T10:40:53Z},
+  file = {Poli2024-summary_of_the_theory_and_modeling_contributions_at_the_29th_iaea_fusion_energy_conference_(fec_2023.pdf:Poli2024-summary_of_the_theory_and_modeling_contributions_at_the_29th_iaea_fusion_energy_conference_(fec_2023.pdf:application/pdf}
+}
+
 @article{Puchmayr2024Effect,
   title = {Effect of Symmetry-Breaking on the {{MHD}} Edge Stability Limit of Tokamak Plasmas},
   author = {Puchmayr, J. and Dunne, M. and Strumberger, E. and Willensdorfer, M. and Zohm, H. and Hindenlang, F. and Team, the ASDEX Upgrade},
@@ -2528,6 +2819,26 @@
   langid = {english},
   timestamp = {2024-06-14T09:32:27Z},
   file = {Qin2024_Effects_of_hydrogen_isotope_species_on_ITG_microturbulence_in_LHD.pdf:Qin2024_Effects_of_hydrogen_isotope_species_on_ITG_microturbulence_in_LHD.pdf:application/pdf}
+}
+
+@article{Qiu2024Effects,
+  title = {Effects of Plasma Nonuniformity on Zero Frequency Zonal Structure Generation by Drift {{Alfvén}} Wave Instabilities in Toroidal Plasmas},
+  author = {Qiu, Zhiyong and Wei, Guangyu and Chen, Liu and Ma, Ruirui},
+  date = {2024-11},
+  journaltitle = {Nuclear Fusion},
+  shortjournal = {Nucl. Fusion},
+  volume = {65},
+  number = {1},
+  pages = {016004},
+  publisher = {IOP Publishing},
+  issn = {0029-5515},
+  doi = {10.1088/1741-4326/ad8ad4},
+  url = {https://dx.doi.org/10.1088/1741-4326/ad8ad4},
+  urldate = {2024-11-18},
+  abstract = {The effects of plasma nonuniformity on zero frequency zonal structure (ZFZS) excitation by drift Alfvén wave (DAW) instabilities in toroidal plasmas are investigated using nonlinear gyrokinetic theory. The governing equations describing nonlinear interactions among ZFZSs and DAWs are derived, with the contribution of DAW self-beating and radial modulation accounted for on the same footing, and the physics picture contributing to both channels clarified. The obtained equations are then used to derive the nonlinear dispersion relation, which is then applied to investigate ZFZS generation in several scenarios. In particular, it is found that the condition for zonal flow excitation by the kinetic ballooning mode (KBM) could be sensitive to plasma parameters and a more detailed investigation is needed to understand KBM nonlinear saturation, crucial for bulk plasma transport in future reactors.},
+  langid = {english},
+  timestamp = {2024-11-18T07:08:02Z},
+  file = {Qiu2024-effects_of_plasma_nonuniformity_on_zero_frequency_zonal_structure_generation_by_drift_alfvén_wave_in.pdf:Qiu2024-effects_of_plasma_nonuniformity_on_zero_frequency_zonal_structure_generation_by_drift_alfvén_wave_in.pdf:application/pdf}
 }
 
 @article{Raeth2024Simulation,
@@ -2645,6 +2956,24 @@
   langid = {english},
   timestamp = {2024-06-01T23:03:24Z},
   file = {Sáez2024_The_Advanced_Computing_Hub_at_BSC.pdf:Sáez2024_The_Advanced_Computing_Hub_at_BSC.pdf:application/pdf}
+}
+
+@article{Sama2024Ion,
+  title = {Ion Temperature Gradient Mode Mitigation by Energetic Particles, Mediated by Forced-Driven Zonal Flows},
+  author = {Sama, J. N. and Biancalani, A. and Bottino, A. and Del Sarto, D. and Dumont, R. J. and Di Giannatale, G. and Ghizzo, A. and Hayward-Schneider, T. and family=Lauber, given=Ph., given-i={{Ph}} and McMillan, B. and Mishchenko, A. and Muruggapan, M. and Rettino, B. and Rofman, B. and Vannini, F. and Villard, L. and Wang, X.},
+  date = {2024-11-01},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {31},
+  number = {11},
+  pages = {112503},
+  issn = {1070-664X},
+  doi = {10.1063/5.0226833},
+  url = {https://doi.org/10.1063/5.0226833},
+  urldate = {2024-11-06},
+  abstract = {In this work, we use the global electromagnetic and electrostatic gyro kinetic approaches to investigate the effects of zonal flows forced-driven by Alfvén modes due to their excitation by energetic particles on the dynamics of ITG (ion temperature gradient) instabilities. The equilibrium of the 92416 JET tokamak shot is considered. The linear, nonlinear Alfvén modes, and the zonal flow dynamics are investigated, and their respective radial structures and saturation levels are reported. ITG dynamics in the presence of the zonal flows excited by these Alfvén modes are also investigated. The zonal flows forced-driven by Alfvén modes can significantly impact the ITG dynamics. A zonal flow amplitude scan reveals the existence of an inverse relation between the zonal flow amplitude and the ITG growth rate. These results indicate that forced-driven zonal flows can be an important indirect part of turbulence mitigation due to the injection of energetic particles.},
+  timestamp = {2024-11-06T03:02:47Z},
+  file = {Sama2024-ion_temperature_gradient_mode_mitigation_by_energetic_particles,_mediated_by_forced-driven_zonal_flo.pdf:Sama2024-ion_temperature_gradient_mode_mitigation_by_energetic_particles,_mediated_by_forced-driven_zonal_flo.pdf:application/pdf}
 }
 
 @article{Schissel2024Remote,
@@ -2765,7 +3094,7 @@
   abstract = {Superconducting (SC) tokamak JT-60SA plays an essential role in fusion research and development by supporting and complementing the ITER project, providing directions to the DEMO design activity and fostering next generation scientists and engineers. Since the short circuit incident at the terminal joints of equilibrium field coil \#1 during the integrated commissioning (IC) in March 2021, both EU and JA implementing agencies (IAs) have examined how to ensure safe operation of JT-60SA by mitigating the risk of possible discharge occurrence inside the cryostat. Based on the experience of the global Paschen tests, the IAs have established a strategy of risk mitigation measures, which is a combination of (i) reinforcement of insulation, (ii) avoiding unnecessary voltage application to the coil systems and (iii) immediate de-energization of the coils when deteriorated vacuum conditions are detected. Thanks to the considerable efforts of the Integrated Project Team members, the IC restarted in May 2023. After confirmation of the SC state of the coil systems (TF, EF and CS), the coil energization test and the plasma operation phase 1 (OP-1) started. The first plasma was successfully achieved on 23 October 2023 with a limited value of voltage and current applied to the coils. The plasma configuration control was also confirmed with low plasma current and low auxiliary heating power conditions. Based on the IO–F4E–QST collaboration, activities of JT-60SA have been shared with the IO and provided an important lesson for ITER assembly and commissioning, and will provide an outstanding contribution to fusion research at large. After OP-1, maintenance \& enhancement phase 1 (M/E-1) starts from January 2024, in which in-vessel components are installed, and heating and diagnostic systems are extensively upgraded to allow a high power heating experiment planned in OP-2. In order to make the best use of JT-60SA, a newly organized JT-60SA experiment team will refine the research plan for the future high heating power operation phase.},
   langid = {english},
   timestamp = {2024-10-18T17:34:35Z},
-  file = {Shirai2024-recent_progress_of_jt-60sa_project_toward_plasma_operation.pdf:../../../../media/Data/ifts_study/AB-paper/Shirai2024-recent_progress_of_jt-60sa_project_toward_plasma_operation.pdf:application/pdf}
+  file = {Shirai2024-recent_progress_of_jt-60sa_project_toward_plasma_operation.pdf:Shirai2024-recent_progress_of_jt-60sa_project_toward_plasma_operation.pdf:application/pdf}
 }
 
 @article{Siena2024Impact,
@@ -2806,7 +3135,7 @@
   abstract = {The work reported in this paper addresses two aspects. In the first part, numerical simulations are conducted to examine the impact of magnetic equilibrium shaping (elongation and triangularity), on both conventional Ion Temperature Gradient (ITG) modes and Short Wavelength ITG modes. This analysis is performed considering the experimental profiles and parameters of the ADITYA-U tokamak, employing the nonlinear global gyrokinetic Particle-in-Cell code ORB5. The linear and nonlinear collisionless electrostatic simulation of these modes are carried out with kinetic ions and adiabatic electrons. From the linear results, it has been observed that the magnetic equilibrium shaping slighty reduced the growth rates and widened the spectrum, and the maxima of growth rate curve is shifted to higher toroidal wave number. We find that the heat flux is reduced by a significant for the true circular magnetohydrodynamic magnetic equilibrium as compared to ad hoc concentric circular equilibrium reported in Singh et al (2023 Nucl. Fusion 63 086029). A further reduction in the heat flux is seen with magnetic equilibrium shaping. In the second part, linear collisionless electrostatic simulation studies of ITG coupled with fully kinetic electrons (both trapped and passing electrons are treated kinetically) using a drift-kinetic ordering is performed. It can be seen from the linear results that, in presence of kinetic electrons, the growth rate and real frequency of the ITG mode are increased significantly for ADITYA-U parameters and a mode propagating in the electron diamagnetic direction is identified at high toroidal wavenumbers.},
   langid = {english},
   timestamp = {2024-10-16T12:14:13Z},
-  file = {Singh2024-magnetic_shaping_effects_on_turbulence_in_aditya-u_tokamak.pdf:../../../../media/Data/ifts_study/AB-paper/Singh2024-magnetic_shaping_effects_on_turbulence_in_aditya-u_tokamak.pdf:application/pdf}
+  file = {Singh2024-magnetic_shaping_effects_on_turbulence_in_aditya-u_tokamak.pdf:Singh2024-magnetic_shaping_effects_on_turbulence_in_aditya-u_tokamak.pdf:application/pdf}
 }
 
 @article{Sips2024Power,
@@ -2847,7 +3176,7 @@
   langid = {english},
   annotation = {abstractTranslation: 由于Alfv é n本征模可以被等离子体中的快离子激发，因此在任何聚变装置中都引起了极大的兴趣。如果这些模式增长到较大的振幅，它们会引起快离子的输运和再分布，从而限制聚变性能。为了节省计算资源，快粒子种类和模式之间的共振动力学相互作用通常用MHD -动力学混合代码来模拟。在这里，我们提出了一种适用于三维磁场的混合模型，该模型考虑了一个有限的平行电场和同时存在的多个MHD模式。该模型扩展了以前在CKA -欧忒耳珀代码中实现的模型，从而可以更好地估计由于平行电场和非线性模式-模式相互作用而产生的阻尼。 通过应用该程序对非线性频率啁啾和快离子轮廓展平进行建模，说明了我们模型的能力。},
   timestamp = {2024-10-21T14:03:35Z},
-  file = {Slaby2024-a_perturbative_multi-mode_model_with_finite_parallel_electric_field_for_fast-ion-driven_alfvén_eigen.pdf:../../../../media/Data/ifts_study/AB-paper/Slaby2024-a_perturbative_multi-mode_model_with_finite_parallel_electric_field_for_fast-ion-driven_alfvén_eigen.pdf:application/pdf}
+  file = {Slaby2024-a_perturbative_multi-mode_model_with_finite_parallel_electric_field_for_fast-ion-driven_alfvén_eigen.pdf:Slaby2024-a_perturbative_multi-mode_model_with_finite_parallel_electric_field_for_fast-ion-driven_alfvén_eigen.pdf:application/pdf}
 }
 
 @article{Slade-Harajda2024consequences,
@@ -2867,7 +3196,7 @@
   abstract = {Measurements of ion cyclotron emission (ICE) are obtained from most large magnetically confined fusion plasma experiments, and may be used in future to quantify properties of the fusion-born alpha-particle population in deuterium-tritium (DT) plasmas in ITER. ICE is driven by spatially localised, strongly non-Maxwellian, minority energetic ion populations which relax collectively under the magnetoacoustic cyclotron instability. ICE spectral peaks are typically observed at, near, or separated by, integer harmonics of the energetic ion cyclotron frequency. Here, for the first time, we study how simulated ICE spectra from DT plasmas vary with tritium concentration and compare with an observed JET DT ICE spectrum. We incorporate a population of thermal tritons, in addition to thermal deuterons and an energetic minority population of fusion-born alpha-particles, in simulations with the kinetic particle-in-cell code EPOCH. This code has previously been used extensively for interpretation of ICE observations in terms of the self-consistent gyro-resolved collective Maxwell-Lorentz dynamics of tens of millions of simulation particles. Our simulation parameters are relevant to the ICE-generative outer midplane edge region of JET DT plasma 26 148, which included 11\% tritium. Quantifying the variation of simulated ICE power spectra with tritium concentration reveals that our simulation with 11\% tritium concentration most accurately represents the observed ICE spectrum from this plasma. This outcome is encouraging for the diagnostic application of ICE to fusion plasmas containing two thermal ion species, including future DT plasmas.},
   langid = {english},
   timestamp = {2024-10-18T17:42:52Z},
-  file = {Slade-Harajda2024-the_consequences_of_tritium_mix_for_simulated_ion_cyclotron_emission_spectra_from_deuterium-tritium.pdf:../../../../media/Data/ifts_study/AB-paper/Slade-Harajda2024-the_consequences_of_tritium_mix_for_simulated_ion_cyclotron_emission_spectra_from_deuterium-tritium.pdf:application/pdf}
+  file = {Slade-Harajda2024-the_consequences_of_tritium_mix_for_simulated_ion_cyclotron_emission_spectra_from_deuterium-tritium.pdf:Slade-Harajda2024-the_consequences_of_tritium_mix_for_simulated_ion_cyclotron_emission_spectra_from_deuterium-tritium.pdf:application/pdf}
 }
 
 @article{Son2024Relativistic,
@@ -2886,6 +3215,24 @@
   urldate = {2024-10-21},
   abstract = {We treat the guiding-center dynamics in a varying external Maxwell field using a relativistically covariant action principle which reproduces the known Vandervoort expression for the drift velocity and extends it to curved spacetime. We derive the corresponding kinetic theory and ideal hydrodynamic theory. In contrast to conventional five-equation hydrodynamics, the guiding-center hydrodynamics needs only three equations due to a constraint on the motion across magnetic field. We argue that such a hydrodynamics is applicable to strongly coupled plasmas where kinetic theory fails.},
   timestamp = {2024-10-21T14:07:58Z}
+}
+
+@article{Sorokina2024Tokamak,
+  title = {Tokamak Plasma Equilibria with  N=1 Toroidal Asymmetry},
+  author = {Sorokina, E. A.},
+  date = {2024-11-12},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {31},
+  number = {11},
+  pages = {112504},
+  issn = {1070-664X},
+  doi = {10.1063/5.0237688},
+  url = {https://doi.org/10.1063/5.0237688},
+  urldate = {2024-11-18},
+  abstract = {A general approach of how to construct plasma equilibrium in a tokamak with  n=1 violation of toroidal symmetry is proposed. For an arbitrary axisymmetric tokamak plasma equilibrium, there exists the small  n=1 deformation of the initial magnetic configuration that keeps the nesting of the magnetic surfaces (as in the initial configuration) and provides plasma equilibrium; such deformation and final equilibrium configuration are calculated analytically. The asymmetric analogue of the Solov'ev's equilibrium with non-degenerated plasma pressure and current density profiles is presented as an example of the application of the developed algorithm.},
+  timestamp = {2024-11-18T07:05:42Z},
+  file = {Sorokina2024-tokamak_plasma_equilibria_with_n=1_toroidal_asymmetry.pdf:Sorokina2024-tokamak_plasma_equilibria_with_n=1_toroidal_asymmetry.pdf:application/pdf}
 }
 
 @article{Souza2024Chaotic,
@@ -2941,6 +3288,24 @@
   file = {Sugama2024_Local_momentum_balance_in_electromagnetic_gyrokinetic_systems.pdf:Sugama2024_Local_momentum_balance_in_electromagnetic_gyrokinetic_systems.pdf:application/pdf}
 }
 
+@article{Sun2024available,
+  title = {On the Available Free Energy in Drift Wave Turbulence},
+  author = {Sun, Qi and Meng, Cong and Guo, Zhibin},
+  date = {2024-11-13},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {31},
+  number = {11},
+  pages = {112302},
+  issn = {1070-664X},
+  doi = {10.1063/5.0231643},
+  url = {https://doi.org/10.1063/5.0231643},
+  urldate = {2024-11-18},
+  abstract = {We report a variational formalism to calculate how much free energy can be released in a drift wave turbulence system, through which estimating the upper limit of the zonal flow intensity becomes possible. This formalism is rooted in the same structure between the wave kinetic equation and the particle kinetic equation, i.e., both following a Liouville equation. The minimal energy state is approached by rearranging the “quasi-particles” (i.e., wave packets) in their phase space. Taking the Charney–Hasegawa–Mima system as a prototype, we analytically derived an upper limit of the available free energy for a Gaussian initial distribution of the wave action. For more general scenarios, by developing an algorithm of rearrangement, we numerically calculated the available free energy. Through direct numerical simulations, it is further verified that the total energy of the zonal flow does not exceed the upper bound set by the variational principle.},
+  timestamp = {2024-11-18T07:08:51Z},
+  file = {Sun2024-on_the_available_free_energy_in_drift_wave_turbulence.pdf:Sun2024-on_the_available_free_energy_in_drift_wave_turbulence.pdf:application/pdf}
+}
+
 @article{Syrocki2024Theoretical,
   title = {Theoretical Interpretation of {{W}} Soft {{X-ray}} Spectra Collected by the Pulse Height Analysis System on {{Wendelstein}} 7-{{X}} Stellarator},
   author = {Syrocki, Ł. and Kubkowska, M. and Jabłoński, S. and Neuner, U. and {W7-X Team}},
@@ -2994,7 +3359,7 @@
   abstract = {Negative triangularity (NT) is a potentially transformative configuration for tokamak-based fusion energy with its high-performance core, edge localized mode (ELM)-free edge, and low-field-side divertors that could readily scale to an integrated reactor solution. Previous NT work on the TCV and DIII-D tokamaks motivated the installation of graphite-tile armor on the low-field-side lower outer wall of DIII-D. A dedicated multiple-week experimental campaign was conducted to qualify the NT scenario for future reactors. During the DIII-D NT campaign, high confinement ( 1), high current ( 3), and high normalized pressure plasmas ( 2.5) were simultaneously attained in strongly NT-shaped discharges with average triangularity = −0.5 that were stably controlled. Experiments covered a wide range of DIII-D operational space (plasma current, toroidal field, electron density and pressure) and did not trigger an ELM in a single discharge as long as sufficiently strong NT was maintained; in contrast, to other high-performance ELM-suppression scenarios that have narrower operating windows. These strong NT plasmas had a lower outer divertor X-point shape and maintained a non-ELMing edge with an electron temperature pedestal, exceeding that of typical L-mode plasmas. Also, the following was achieved during the campaign: high normalized density (/ of at least 1.7), particle confinement comparable to energy confinement with , a detached divertor without impurity seeding, and a mantle radiation scenario using extrinsic impurities. These results are promising for a NT fusion pilot plant but further questions on confinement extrapolation and core-edge integration remain, which motivate future NT studies on DIII-D and beyond.},
   langid = {english},
   timestamp = {2024-10-22T03:07:54Z},
-  file = {Thome2024-overview_of_results_from_the_2023_diii-d_negative_triangularity_campaign.pdf:../../../../media/Data/ifts_study/AB-paper/Thome2024-overview_of_results_from_the_2023_diii-d_negative_triangularity_campaign.pdf:application/pdf}
+  file = {Thome2024-overview_of_results_from_the_2023_diii-d_negative_triangularity_campaign.pdf:Thome2024-overview_of_results_from_the_2023_diii-d_negative_triangularity_campaign.pdf:application/pdf}
 }
 
 @article{Tinguely2024Isotope,
@@ -3035,7 +3400,7 @@
   langid = {english},
   annotation = {abstractTranslation: 在DIII - D中研究了不同小边缘局域模( ELM )区域内的偏滤器热通量及其与基座参数的关联，包括高beta极向、II型和负三角形变H型ELM。II型和高beta极向小ELM区域的平行能量通量低于Eich等人2017 ( Nucl。物质。能源12 84 \textasciitilde{} 90)中提出的I型ELM的基座电子压强线性标度。H型ELM的负三角形变遵循I型ELM的Eich标度。偏滤器的平行热流密度和总热负荷通过高时间分辨率的红外热像图确定，而基座参数通过自洽的动力学平衡重建获得。 对II型和高贝塔极光区的线性回归表明，等价于7。ITER的5 MA小ELM情景将落在钨( Gunn et al 2017Nuc1 .融合57 046025)的5个前沿熔化极限以下。利用快速热成像技术，确定了ELM间和ELM内的刮削层功率衰减长度，并与Eich等人( ASDEX升级团队和JET EFDA Contributors 2013 Nucl .融合53 093031)中的极向磁场Eich定标进行了比较。 除高贝塔极向情景外，所有在ELM间和ELM内的小ELM模式的功率衰减长度均大于I型ELM的功率衰减长度，表明其在管理热负荷方面的潜力，并为核心-边缘集成提供了解决方案。},
   timestamp = {2024-10-21T12:46:52Z},
-  file = {Traverso2024-investigation_of_pedestal_parameters_and_divertor_heat_fluxes_in_small_elm_regimes_in_diii-d.pdf:../../../../media/Data/ifts_study/AB-paper/Traverso2024-investigation_of_pedestal_parameters_and_divertor_heat_fluxes_in_small_elm_regimes_in_diii-d.pdf:application/pdf}
+  file = {Traverso2024-investigation_of_pedestal_parameters_and_divertor_heat_fluxes_in_small_elm_regimes_in_diii-d.pdf:Traverso2024-investigation_of_pedestal_parameters_and_divertor_heat_fluxes_in_small_elm_regimes_in_diii-d.pdf:application/pdf}
 }
 
 @article{Trivedi2024Coreedge,
@@ -3054,6 +3419,24 @@
   abstract = {Whole device gyrokinetic turbulence is modeled using a delta-f model in the core coupled to a total-f model in the edge. This new model is implemented in the gyrokinetic code X-Point Included Gyrokinetic Code (XGC) and works within a single simulation. It employs a canonical Maxwellian background in the core and the usual local Maxwellian in the edge. These different core and edge backgrounds are coupled over an overlap region. A thermal-bath operator is used to keep δf small in the core.},
   timestamp = {2024-07-30T21:14:13Z},
   file = {Trivedi2024_Core-edge_modeling_of_gyrokinetic_turbulence_by_coupling_the_delta-f_and.pdf:Trivedi2024_Core-edge_modeling_of_gyrokinetic_turbulence_by_coupling_the_delta-f_and.pdf:application/pdf}
+}
+
+@article{Tskhakaya2024new,
+  title = {A New Approach to the Description of Plasma {{Langmuir}} Waves},
+  author = {Tskhakaya, Davy D.},
+  date = {2024-11-12},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {31},
+  number = {11},
+  pages = {112301},
+  issn = {1070-664X},
+  doi = {10.1063/5.0211433},
+  url = {https://doi.org/10.1063/5.0211433},
+  urldate = {2024-11-18},
+  abstract = {After finding an exact solution to the Vlasov–Boltzmann kinetic equation (i.e., finding distribution functions for plasma particles), we consider the description of Landau damping using Poisson's equation, since with the complete distribution function, there is no need to split the kinetic equation into equilibrium and perturbed parts for the subsequent implementation of the pole bypass in the integrand expression. The found distribution function depends, in addition to velocity, on the coordinates and can be used to analytically consider different cases and configurations of the spatial confinement of the plasma. General distribution function for electrons is discussed. We consider the behavior of Langmuir waves, also at the nonlinear stage.},
+  timestamp = {2024-11-18T07:07:33Z},
+  file = {Tskhakaya2024-a_new_approach_to_the_description_of_plasma_langmuir_waves.pdf:Tskhakaya2024-a_new_approach_to_the_description_of_plasma_langmuir_waves.pdf:application/pdf}
 }
 
 @article{Valenzuela-Villaseca2023Characterization,
@@ -3111,7 +3494,7 @@
   abstract = {In this work, we explore the pedestal properties of negative triangularity discharges with upper triangularity of and with both ion drift directions. In all cases, the discharges undergo a transition to H-mode with accompanying edge-localized modes (ELMs) that are not explained by the peeling-ballooning stability analysis alone. A variation in the ion drift direction is observed. A lower pressure gradient, shallower radial electric field well and increased temperature fluctuations are measured in the favorable case. In addition, irregular ELMs are present. This difference is more pronounced in electron cyclotron resonance heating (ECRH) plasmas compared to plasmas with combined neutral beam injection and ECRH. A comparative analysis between two discharges, featuring similar plasma parameters but varied shaping, suggests that an interplay between other parameters, such as magnetic shear, the timing of the auxiliary heating and shaping, might play a strong role in low- to high-confinement transitions. While the low shaping discharge maintained L-mode, the high shaping discharge entered H-mode with ELMs, contrary to expectations.},
   langid = {english},
   timestamp = {2024-10-22T03:06:25Z},
-  file = {Vanovac2024-pedestal_properties_of_negative_triangularity_discharges_in_asdex_upgrade.pdf:../../../../media/Data/ifts_study/AB-paper/Vanovac2024-pedestal_properties_of_negative_triangularity_discharges_in_asdex_upgrade.pdf:application/pdf}
+  file = {Vanovac2024-pedestal_properties_of_negative_triangularity_discharges_in_asdex_upgrade.pdf:Vanovac2024-pedestal_properties_of_negative_triangularity_discharges_in_asdex_upgrade.pdf:application/pdf}
 }
 
 @article{Vanthieghem2024Electron,
@@ -3188,7 +3571,7 @@
   abstract = {The transition from small edge-localized modes (ELMs) to large ELMs has been repetitively observed in minute-scale long-pulse high-confinement mode (H-mode) discharges during the 2017 EAST campaign. The appearance of large ELMs is found to be strongly correlated with the decrease in separatrix density due to the gradual decrease in fuel recycling during long-pulse H-mode operations (LPHOs). By the numerical scanning of separatrix density with a fixed temperature profile, it has been found that the dependence of ELM instability on separatrix density is related to the competition between the ion diamagnetic stabilizing effect and destabilizing effect of pressure gradient and current density in the pedestal region. This sheds light on a comprehensive understanding of the different roles of separatrix density in ELM instability observed during EAST experiments. With a high separatrix density, the ideal ballooning mode can be destabilized near the separatrix, which is thought to help achieve small ELMs in EAST LPHOs. During the 2021 EAST campaign, an experiment of large ELM control was performed through actively changing fuel recycling by moving the strike point location on the lower tungsten divertor target plate. It has been demonstrated that the mitigation of large ELMs is strongly correlated with the significant increase in separatrix density, which is thought to be attributed to a higher ionization source in the scrape-off layer (SOL) region by SOLPS-ITER simulation. The high ionization source in the SOL region is believed to provide a strong fueling effect near the separatrix and thus raise the local density, which is considered an important reason for triggering ballooning instabilities near the separatrix and achieving small ELMs.},
   langid = {english},
   timestamp = {2024-10-21T14:04:40Z},
-  file = {Wang2024-dependence_of_elm_instability_on_separatrix_density_in_east_long-pulse_h-mode_plasmas.pdf:../../../../media/Data/ifts_study/AB-paper/Wang2024-dependence_of_elm_instability_on_separatrix_density_in_east_long-pulse_h-mode_plasmas.pdf:application/pdf}
+  file = {Wang2024-dependence_of_elm_instability_on_separatrix_density_in_east_long-pulse_h-mode_plasmas.pdf:Wang2024-dependence_of_elm_instability_on_separatrix_density_in_east_long-pulse_h-mode_plasmas.pdf:application/pdf}
 }
 
 @article{Wang2024Experiment,
@@ -3243,7 +3626,7 @@
   urldate = {2024-10-18},
   abstract = {Velocity, density, and magnetic fluctuations of the geodesic acoustic mode (GAM) have been measured using the Doppler backscattering system, Faraday-effect polarimeter-interferometer, and external pick-up coils in the Experimental Advanced Superconducting Tokamak. Simultaneous measurements of density and velocity fluctuations at the midplane and top of plasmas demonstrate that m\,=\,1 density fluctuations are quantitatively balanced by the compression of perpendicular flow fluctuations. Furthermore, internal magnetic fluctuations associated with GAM have now been directly measured by laser-based Faraday-effect polarimetry for the first time. Line-averaged magnetic fluctuations (up to 16\,Gauss,  B̃¯R,GAMBT∼0.066\%) are significantly larger than those extrapolated from edge coils (a few Gauss) and that magnetic fluctuations increase with  β. The observed discrepancy between finite  β theory and experimental data indicates the need for further theoretical investigations.},
   timestamp = {2024-10-18T17:26:07Z},
-  file = {Wang2024-internal_measurements_of_electromagnetic_geodesic_acoustic_mode_(gam)_in_east_plasmas.pdf:../../../../media/Data/ifts_study/AB-paper/Wang2024-internal_measurements_of_electromagnetic_geodesic_acoustic_mode_(gam)_in_east_plasmas.pdf:application/pdf}
+  file = {Wang2024-internal_measurements_of_electromagnetic_geodesic_acoustic_mode_(gam)_in_east_plasmas.pdf:Wang2024-internal_measurements_of_electromagnetic_geodesic_acoustic_mode_(gam)_in_east_plasmas.pdf:application/pdf}
 }
 
 @article{Wang2024Numerical,
@@ -3261,7 +3644,7 @@
   urldate = {2024-10-18},
   abstract = {De-aliasing is an essential procedure for eliminating the aliasing error in nonlinear simulations, such as nonlinear gyrokinetic turbulence simulations. An ideal approach to de-aliasing in the periodic dimension is the Fourier truncation. Finite difference low-pass filtering applied in the non-periodic direction strongly dampens aliasing modes. At the same time, it induces numerical dissipation in the region of the physically realistic solution. It is shown analytically that the long-wave dissipation coefficient is proportional to the ( Np−3) power of the wavenumber under desirable constraints satisfying the highest order of accuracy, where  Np is the number of filter points. Numerical results after applying the optimized low-pass filtering to the nonlinear gyrokinetic turbulence simulation suggest that the nine-point format preserves intact mesoscopic zonal structures in tokamak plasma, and is therefore suitable for long-time nonlinear turbulence simulations.},
   timestamp = {2024-10-18T17:24:45Z},
-  file = {Wang2024-numerical_dissipation_induced_by_the_low-pass_filtering_in_nonlinear_gyrokinetic_simulations.pdf:../../../../media/Data/ifts_study/AB-paper/Wang2024-numerical_dissipation_induced_by_the_low-pass_filtering_in_nonlinear_gyrokinetic_simulations.pdf:application/pdf}
+  file = {Wang2024-numerical_dissipation_induced_by_the_low-pass_filtering_in_nonlinear_gyrokinetic_simulations.pdf:Wang2024-numerical_dissipation_induced_by_the_low-pass_filtering_in_nonlinear_gyrokinetic_simulations.pdf:application/pdf}
 }
 
 @article{Wang2024SelfOrganized,
@@ -3393,7 +3776,26 @@
   urldate = {2024-10-21},
   abstract = {Neoclassical transport in a non-isothermal plasma in which each plasma species has different equilibrium temperature is investigated by solving the drift kinetic equation with a Fokker–Planck (FP) collision operator in a circular tokamak model. Since it is known that a linearized FP operator does not have a self-adjoint property in a non-isothermal plasma, approximate models are developed for comparison to intend to have the self-adjoint property in the non-isothermal case. To achieve this, we set a common temperature that the system should reach after a long time, and the individual temperature of each particle species is expressed by a parameter to measure a shift of the individual temperature from the common one. Then, both the Vlasov part and the collision term of the kinetic equation are expanded around the common temperature, taking the temperature shift parameter up to the first order. It is found that the lowest order collision term of expansion preserves the self-adjointness while the first-order, nonlinear FP term does not. A large difference of the ion heat neoclassical transport is found in comparison between the developed models with and without the self-adjointness and the original FP collision term in the non-isothermal plasma, especially in a strong temperature equilibration regime, showing that a contribution of the collision term without the self-adjointness seems to be significant. Furthermore, when an impurity species is included, the result is complicated where the usual enhancement in the main ion particle transport coefficient, due to the impurity effect, is rather suppressed with the increase in the ion heat transport coefficients by the non-isothermal effects.},
   timestamp = {2024-10-21T14:27:25Z},
-  file = {Full Text PDF:../../../../media/Data/ifts_study/AB-paper/Yamagishi2024-neoclassical_transport_computations_in_non-isothermal_tokamak_plasmas.pdf:application/pdf}
+  file = {Yamagishi2024-neoclassical_transport_computations_in_non-isothermal_tokamak_plasmas.pdf:Yamagishi2024-neoclassical_transport_computations_in_non-isothermal_tokamak_plasmas.pdf:application/pdf}
+}
+
+@article{Yang2018Gyrokinetic,
+  title = {Gyrokinetic Study of Slowing-down α Particles Transport Due to Trapped Electron Mode Turbulence},
+  author = {Yang, S. M. and Angioni, C. and Hahm, T. S. and Na, D. H. and Na, Y. S.},
+  date = {2018-12-13},
+  journaltitle = {Physics of Plasmas},
+  shortjournal = {Physics of Plasmas},
+  volume = {25},
+  number = {12},
+  pages = {122305},
+  issn = {1070-664X},
+  doi = {10.1063/1.5060628},
+  url = {https://doi.org/10.1063/1.5060628},
+  urldate = {2024-11-27},
+  abstract = {Transport of α particles due to trapped electron mode (TEM) turbulence is investigated from nonlinear and quasilinear gyrokinetic simulations. We consider both slowing-down and Maxwellian distribution functions for α particles and identify and compare diffusive and convective parts of α particle transport as a function of the α particle's energy normalized to the background plasma temperature. We find that TEM induces much lower transport of energetic α particles such as fusion products than that of thermal Helium ions in the trace limit. This disparity from our study is found to be even greater than that reported previously for the ion temperature gradient mode [C. Angioni and A. G. Peeters, Phys. Plasmas. 15, 052307 (2008)].},
+  langid = {american},
+  timestamp = {2024-11-27T07:57:52Z},
+  file = {Yang2018-gyrokinetic_study_of_slowing-down_α_particles_transport_due_to_trapped_electron_mode_turbulence.pdf:Yang2018-gyrokinetic_study_of_slowing-down_α_particles_transport_due_to_trapped_electron_mode_turbulence.pdf:application/pdf}
 }
 
 @article{Yang2024Disappearance,
@@ -3413,7 +3815,7 @@
   abstract = {This study employs gyrokinetic simulations to investigate ion temperature gradient (ITG) turbulence in realistic fusion reactor plasmas featuring reversed magnetic shear. The weakly negative magnetic shear is observed to be more stable for the ITG instability than strongly positive shear in this equilibrium configuration, primarily stemming from the scarcity of mode rational surfaces induced by the weak negative shear. This superiority in suppression for the negative shear persists in nonlinear turbulence with zonal flow artificially eliminated, where the emergence of turbulence solitons is observed and found associated with locally dense mode rational surfaces. However, the difference in transport levels among different magnetic shears diminishes in the presence of self-consistently generated zonal flow, accompanied by the disappearance of turbulence solitons. The nonlinear generation of zonal flow is found to be significantly affected by the magnetic shear. The study reveals a remarkable phenomenon that the Dimits shift no longer exists for negative magnetic shear, which is attributed to the weakness of the zonal flow generation near the ITG marginal stability.},
   langid = {english},
   timestamp = {2024-10-18T17:17:39Z},
-  file = {Yang2024-disappearance_of_dimits_shift_in_realistic_fusion_reactor_plasmas_with_negative_magnetic_shear.pdf:../../../../media/Data/ifts_study/AB-paper/Yang2024-disappearance_of_dimits_shift_in_realistic_fusion_reactor_plasmas_with_negative_magnetic_shear.pdf:application/pdf}
+  file = {Yang2024-disappearance_of_dimits_shift_in_realistic_fusion_reactor_plasmas_with_negative_magnetic_shear.pdf:Yang2024-disappearance_of_dimits_shift_in_realistic_fusion_reactor_plasmas_with_negative_magnetic_shear.pdf:application/pdf}
 }
 
 @article{Yang2024Effect,
@@ -3531,7 +3933,7 @@
   abstract = {The design of commercially feasible magnetic confinement fusion reactors strongly relies on the reduced turbulent transport in the plasma edge during operation in the high confinement mode (H-mode). We present first global turbulence simulations of the ASDEX Upgrade tokamak edge and scrape-off layer in ITER baseline H-mode conditions. Reasonable agreement with the experiment is obtained for outboard mid-plane measurements of plasma density, electron and ion temperature, as well as the radial electric field. The radial heat transport is underpredicted by roughly 1/3. These results were obtained with the GRILLIX code implementing a transcollisional, electromagnetic, global drift-fluid plasma model, coupled to diffusive neutrals. The transcollisional extensions include neoclassical corrections for the ion viscosity, as well as either a Landau-fluid or free-streaming limited model for the parallel heat conduction. Electromagnetic fluctuations are found to play a critical role in H-mode conditions. We investigate the structure of the significant E × B flow shear, finding both neoclassical components as well as zonal flows. But unlike in L-mode, geodesic acoustic modes are not observed. The turbulence mode structure is mostly that of drift-Alfvén waves. However, in the upper part of the pedestal, it is very weak and overshadowed by neoclassical transport. At the pedestal foot, on the other hand, we find instead the (electromagnetic) kinetic ballooning mode, most clearly just inside the separatrix. Our results pave the way towards predictive simulations of fusion reactors.},
   langid = {english},
   timestamp = {2024-10-18T17:35:01Z},
-  file = {Zholobenko2024-tokamak_edge-sol_turbulence_in_h-mode_conditions_simulated_with_a_global,_electromagnetic,_transcoll.pdf:../../../../media/Data/ifts_study/AB-paper/Zholobenko2024-tokamak_edge-sol_turbulence_in_h-mode_conditions_simulated_with_a_global,_electromagnetic,_transcoll.pdf:application/pdf}
+  file = {Zholobenko2024-tokamak_edge-sol_turbulence_in_h-mode_conditions_simulated_with_a_global,_electromagnetic,_transcoll.pdf:Zholobenko2024-tokamak_edge-sol_turbulence_in_h-mode_conditions_simulated_with_a_global,_electromagnetic,_transcoll.pdf:application/pdf}
 }
 
 @article{Zhong2024Highbeta,
@@ -3620,5 +4022,5 @@
   urldate = {2024-10-18},
   abstract = {A weakly nonlinear theoretical model is established for the two-dimensional incompressible Rayleigh–Taylor–Kelvin–Helmholtz instability (RT–KHI). The evolution of the perturbation interface is analytically studied by the third-order solution of the planar RT–KHI induced by a single-mode surface perturbation. The difference between the weakly nonlinear growth for Rayleigh–Taylor instability (RTI), Kelvin–Helmholtz instability (KHI), and RT–KHI in plane geometry is discussed. The trend of bubble and spike amplitudes with the Atwood number and the Richardson number is discussed in detail. The bubble and spike amplitudes of RT–KHI change from the KHI case to the RTI case as the Richardson number increases. The deflecting distance of bubble and spike vertices becomes smaller compared to the KHI case as the Richardson number increases. The dependence of the nonlinear saturation amplitude of RT–KHI on the Atwood number, the Richardson number, and the initial perturbation is obtained. The Richardson number is as vital to the nonlinear saturation amplitude as the Atwood number. It is found that the variation of the nonlinear saturation amplitude with the Atwood number at different Richardson numbers is divided into three parts, namely, “RTI-like part,” “transition part,” and “KHI-like part.” In the transition part, the trend of the nonlinear saturation amplitude increasing with the Atwood number is completely opposite to the RTI and KHI cases. Finally, the theory is compared to the numerical simulation under identical initial conditions and displays good correspondence in the linear and weakly nonlinear stages.},
   timestamp = {2024-10-18T16:55:41Z},
-  file = {Zou2024-weakly_nonlinear_incompressible_rayleigh–taylor–kelvin–helmholtz_instability_in_plane_geometry.pdf:../../../../media/Data/ifts_study/AB-paper/Zou2024-weakly_nonlinear_incompressible_rayleigh–taylor–kelvin–helmholtz_instability_in_plane_geometry.pdf:application/pdf}
+  file = {Zou2024-weakly_nonlinear_incompressible_rayleigh–taylor–kelvin–helmholtz_instability_in_plane_geometry.pdf:Zou2024-weakly_nonlinear_incompressible_rayleigh–taylor–kelvin–helmholtz_instability_in_plane_geometry.pdf:application/pdf}
 }
